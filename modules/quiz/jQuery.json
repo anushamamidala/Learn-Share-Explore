@@ -1,0 +1,73 @@
+{"teammembers":[
+    {
+        "id": "1",
+        "Question":"Question 1 of 10",
+        "Q":"Which of the following is correct?",
+        "Options":["jQuery is a JavaScript library","jQuery is a JSON library","",""],
+        "Answer":1
+    },
+    {
+        "id": "2",
+        "Question":"Question 2 of 10",
+        "Q":"jQuery uses CSS selectors to select elements?",
+        "Options":["FALSE","TRUE","",""],
+        "Answer":1
+    },
+    {
+        "id": "3",
+        "Question":"Question 3 of 10",
+        "Q":"Which sign does jQuery use as a shortcut for jQuery?",
+        "Options":["the % sign","the $ sign","the ? sign",""],
+        "Answer":1
+    },
+    {
+        "id": "4",
+        "Question":"Question 4 of 10",
+        "Q":"Look at the following selector: $('div'). What does it select?",
+        "Options":["All div elements","The first div element","",""],
+        "Answer":0
+    },
+    {
+        "id": "5",
+        "Question":"Question 5 of 10",
+        "Q":"Is jQuery a library for client scripting or server scripting?",
+        "Options":["Server Scripting","Client Scripting","",""],
+        "Answer":0
+    },
+    {
+        "id": "6",
+        "Question":"Question 6 of 10",
+        "Q":"Is it possible to use jQuery together with AJAX?",
+        "Options":["YES","NO","",""],
+        "Answer":0
+    },
+    {
+        "id": "7",
+        "Question":"Question 7 of 10",
+        "Q":"The jQuery html() method works for both HTML and XML documents ",
+        "Options":["FALSE","TRUE","",""],
+        "Answer":1
+    },
+    {
+        "id": "8",
+        "Question":"Question 8 of 10",
+        "Q":"Which jQuery method is used to hide selected elements?",
+        "Options":["visible(false)","hidden()","display(none)","hide()"],
+        "Answer":0
+    },
+    {
+        "id": "9",
+        "Question":"Question 9 of 10",
+        "Q":"Which jQuery method is used to set one or more style properties for selected elements?",
+        "Options":["style()","html()","css()",""],
+        "Answer":0
+    },
+    {
+        "id": "10",
+        "Question":"Question 10 of 10",
+        "Q":"What scripting language is jQuery written in?",
+        "Options":["C#","C++","VBScript","JavaScript"],
+        "Answer":3
+    }
+
+]}

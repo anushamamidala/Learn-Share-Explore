@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FAQs</title>
+    <meta charset="utf-8">
+    <meta name="description" content="LearnShareCode" />
+    <meta name="keywords" content="Learn html, Learn css, FAQs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/logo.png" />
+    <link href="Styles/mainfaq.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main header -->
+
+    <header>
+        <img src="./images/log.png" alt="Company logo">
+        <ul>
+            <li><a href="../home/index.html" class="active">HOME</a></li>
+            <li><a href="../home/courses.html">COURSES</a></li>
+            <li><a href="../quiz/index.html">TAKE A QUIZ</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+            <li><a href="../login/Blog.html">BLOG</a></li>
+            <li><a href="../profile/profileStu.html">PROFILE</a></li>
+        </ul>
+
+    </header>
+    <!-- class box containing all the data -->
+    <div class="box">
+        <section>
+            <br /><br /><br /><br />
+            <h1>Ask Questions regarding the course</h1>
+            <span id="quesimg">
+            <img src="./Images/QNA-PNG.png" alt="Questions and answers image" id="./Images/qna.png" height="150px" width="400px">
+            </span>
+        </section>
+        <main id="interaction">
+            <h2>This section will help make the students and the instructors interact as the students can pose questions
+                here and the instructors can answer those questions for the students</h2>
+            <h3>Q1. Who will be the one helping me?</h3>
+            <p>ANS. The questions are put up by the students and the instructors help sort the queries out.</p>
+            <h3>Q2. How can an I ask questions here?</h3>
+            <p>ANS. The link on your profile page will lead you to either the answering page or the questions page based
+                on whether you are an instructor or a student respectively.</p>
+            <h3>Q3. When can someone ask or reply to questions here?</h3>
+            <p>ANS. As soon as we are taught how to do this in class using javaScript.</p>
+            <h3>Q4. How do I submit a Question?</h3>
+            <p>ANS. Just type the question out in the space below.</p>
+        </main>
+        <section>
+            <br />
+            <!-- the form page -->
+            <fieldset>
+                <legend>
+                    <h3>Have a question?</h3>
+                </legend>
+
+                <form id="cform" name="cform" method="get" action="">
+                    <label for="Name">Name: </label>
+                    <input type="text" id="name"><br />
+                    <label for="Email">Email: </label>
+                    <input type="text" id="email"><br />
+                    <textarea name="question" rows="6" cols="100" id="question"></textarea><br />
+                    <input type="submit" id="btnsubmit" value="Submit Question?">
+                    <input type="reset" id="btnreset" value="Reset">
+                </form>
+            </fieldset>
+        </section>
+    </div>
+    <!-- main footer -->
+    <footer>
+        <div class="footer-website-description">
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best
+                education, partnering
+                with top universities and organizations to offer courses online.</p>
+        </div>
+        <div class="footer-website-description-courses">
+            <p id="footer-courses">Popular Courses</p>
+            <a href="../home/course-videos.html">
+             <p>Software Development</p>
+            </a>
+            <a href="../home/course-videos.html"><p>Banking and Finance</p></a>
+            <a href="../home/course-videos.html"><p>Visual Arts</p></a>
+            <a href="../home/course-videos.html"><p>Busness Managment</p></a>
+            <a href="../home/course-videos.html"><p>Software Engineering Technician</p></a>
+            <a href="../home/course-videos.html"><p>Photography</p></a>
+            <a href="../home/course-videos.html"><p>Social Media and Marketing</p></a>
+        </div>
+
+        <div class="footer-website-description-about">
+            <p id="footer-courses-about">Learn Share Explore</p>
+            <a href="../home/courses.html">
+                <p>Courses</p>
+            </a>
+            <a href="../quiz/index.html">
+                <p>Take a Quiz</p>
+            </a>
+            <a href="aboutUs.html">
+                <p>About</p>
+            </a>
+            <a href="../login/Blog.html">
+                <p>Blog</p>
+            </a>
+            <a href="profileStu.html">
+                <p>Profile</p>
+            </a>
+        </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="./JavaScript/qna.js"></script>
+
+</body>
+
+</html>

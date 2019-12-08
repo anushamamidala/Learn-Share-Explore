@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Basic:400i&display=swap");
+
+body {
+  font-family: open sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7em;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* header styles */
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 9999;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  z-index: 999;
+}
+
+header ul li {
+  list-style-type: none;
+  font-weight: bolder;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+header ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.active {
+  color: orangered;
+}
+
+/* main background image on home page styles */
+
+.container{
+  width:100%;
+  height: 200px;
+}
+
+.web-background{
+  height: inherit;
+  width:100%;
+}
+
+.home-background-image {
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* popular courses section styles */
+
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+}
+
+.study-program-heading {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.courses-nav-tab {
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.courses-nav-tab span {
+  margin-right: 8px;
+  color: black;
+  font-size: 15px;
+}
+
+.courses-nav-tab .active {
+  color: orangered;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid orangered;
+}
+
+.course-cards {
+  display: block;
+  font-size: 0;
+  text-align: center;
+  width: 80%;
+}
+
+.polaroid {
+  padding: 16px;
+  position: relative;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 5%;
+  display: inline-block;
+  overflow: auto;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.title-caption {
+  font-size: 20px;
+  color: rgba(80, 77, 77, 0.425);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(55, 56, 56, 0.459);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms ease 0s;
+}
+
+.polaroid:hover .overlay {
+  width: 100%;
+}
+
+.all-courses-button {
+  background-color: #3f3f3f;
+  border-radius: 35px;
+  font-size: 16px;
+  padding: 15px 30px;
+  color: white;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.all-courses-button:hover {
+  background-color: rgba(255, 68, 0, 0.89);
+  cursor: pointer;
+}
+
+.overlay-text {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.overlay-text-small {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.course-image-title {
+  text-align: center;
+  padding-right: 8px;
+}
+
+.course-title {
+  float: left;
+  margin-left: 10px;
+  font-weight: bold;
+  color:  black;
+}
+
+.course-titile-tag {
+  float: right;
+  color: #8a8a8a;
+}
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-section-card {
+  width: 90%;
+  margin: 15px 0px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.review-content {
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px;
+  font-family: "Gentium Basic", serif;
+  line-height: 1.2em;
+}
+
+.review-section-img {
+  padding: 20px;
+  border-radius: 50%;
+  height: 100px;
+}
+
+/* footer section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+}
+
+.footer-website-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.footer-title-underline {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.575);
+  font-size: 20px;
+}
+
+#footer-courses {
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.footer-website-description-courses {
+  margin-left: 5%;
+}
+
+.footer-website-description-courses p,
+.footer-website-description-about p {
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.footer-website-description-about {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer-courses-about {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#footer-courses a{
+  text-decoration: none;
+}
+
+#footer-website-description-about a{
+  text-decoration: none;
+}
+
+.footer-website-description-about a{
+  text-decoration: none;
+}
+
+.footer-website-description-courses a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  .logoImage{
+    display: none;
+  }
+  .mobile-background{
+    height: 200px;
+    width:inherit;
+  }
+  .web-background{
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .mobile-background{
+    display: none;
+  }
+
+  header {
+    position: fixed;
+    width: 80%;
+    height: 60px;
+    background: transparent;
+    margin-left: 10%;
+  }
+
+  .solid {
+    background: white !important;
+  }
+
+  header ul {
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+
+  header ul li {
+    margin-right: 30px;
+  }
+
+  .container {
+    flex-direction: row;
+    height: 780px;
+  }
+
+  .container h1 {
+    font-size: 60px;
+  }
+
+  .laptop-png {
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .review-section-card {
+    width: 70%;
+  }
+
+  .review-content {
+    font-size: 30px;
+    width: 60%;
+    padding: 20px 80px;
+  }
+
+  .review-section-img {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 10%;
+    height: 100px;
+  }
+
+  /* footer section */
+
+  footer {
+    flex-direction: row;
+    height: 300px;
+  }
+
+  .footer-website-description {
+    width: 30%;
+  }
+
+  #footer-courses {
+    font-size: 25px;
+  }
+
+  .footer-website-description-courses {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  .footer-website-description-about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+}

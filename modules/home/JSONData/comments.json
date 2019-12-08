@@ -1,0 +1,24 @@
+{
+    "comments": [
+        {
+            "id": 1,
+            "comment": "I have taken the course on Software Engineering in Learn share and Explore which helped me not only deeply understanding the course but also to clear my doubts simultaniously.",
+            "commenterName": "Anusha Mamidala",
+            "commenterPicture": "/assets/images/default-picture-review.png"
+        },
+
+        {
+            "id": 2,
+            "comment": "I had a very good experience with Learn, Share and Explore. Highly Recommend others to use.",
+            "commenterName": "Anu",
+            "commenterPicture": "/assets/images/user_profile_female.jpg"
+        },
+
+        {
+            "id": 3,
+            "comment": "I took course on Marketing in Learn share and Explore which helped me not only deeply understanding the course but also to clear my doubts simultaniously.",
+            "commenterName": "Mamidala",
+            "commenterPicture": "/assets/images/default-picture-review.png"
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Basic:400i&display=swap");
+
+
+/* header styles */
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 9999;
+  
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  z-index: 999;
+}
+
+header ul li {
+  list-style-type: none;
+  font-weight: 1000;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+header ul li a:hover {
+  color: red;
+}
+
+.active {
+  color: orangered;
+}
+
+
+
+
+
+/* footer section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+}
+
+.footer-website-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.footer-title-underline {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.575);
+  font-size: 20px;
+}
+
+#footer-courses {
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.footer-website-description-courses {
+  margin-left: 5%;
+}
+
+.footer-website-description-courses p,
+.footer-website-description-about p {
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.footer-website-description-about {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer-courses-about {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+
+@media screen and (min-width: 700px) {
+    header {
+        position: fixed;
+        width: 80%;
+        height: 60px;
+        background-color: white;
+        margin-left: 10%;
+    }
+    header ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+      
+    header ul li {
+        margin-right: 30px;
+    }
+    
+    main {
+        padding-top: 60px;
+    }
+
+    
+      
+    
+      
+     
+      
+      /* footer section */
+      
+      footer {
+        flex-direction: row;
+        height: 300px;
+      }
+      
+      .footer-website-description {
+        width: 30%;
+      }
+      
+      #footer-courses {
+        font-size: 25px;
+      }
+      
+      .footer-website-description-courses {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin-left: 10%;
+      }
+      
+      .footer-website-description-about {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+      }
+      
+}

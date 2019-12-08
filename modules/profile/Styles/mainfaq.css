@@ -1,0 +1,210 @@
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 80%;
+  z-index: 9999;
+}
+  
+header ul {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  z-index: 999;
+}
+
+fieldset{
+  width: 80%;
+}
+
+#question{
+  width: 90%;
+}
+  
+header ul li {
+  list-style-type: none;
+  font-weight: 1000;
+}
+  
+header ul li a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bolder;
+  font-size: 16px;
+}
+  
+header ul li a:hover {
+  color: red;
+}
+  
+.active {
+  color: orangered;
+}
+
+p{
+  padding-left: 10px;
+}
+
+body{
+background-color: skyblue;
+width: 80%;
+font-family: Cambria, Cochin, Georgia, Times , Times New Roman, Serif;
+color: rgb(51, 147, 236);
+margin:auto;
+}
+h1,h2,h3,h4,h5,h6{
+  color: darkblue;
+}
+fieldset{
+  padding: 20px;
+  width: max-content;
+}
+input{
+  padding: 5px;
+}
+img{
+  max-width:auto;
+}
+#b1{
+  font-size: 27px;
+  background-color: black;
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+main a:link{
+  color:white;
+}
+h3{
+  padding: 10px;
+}
+
+main{
+  font-family: Cambria, Cochin, Georgia, Times , Times New Roman, Serif;
+}
+
+.box{
+  background-color: white;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  margin-left: 5px;
+}
+ 
+label.error {
+  display: inline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+  }
+  
+.footer-website-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+ 
+.footer-title-underline {
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.575);
+  font-size: 20px;
+}
+  
+#footer-courses {
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+  
+.footer-website-description-courses {
+  margin-left: 5%;
+}
+  
+.footer-website-description-courses p,
+.footer-website-description-about p {
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+  
+.footer-website-description-about {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+@media screen and (min-width: 700px) {
+  header {
+    position: fixed;
+    width: 80%;
+    height: 60px;
+    background-color: white;
+  }
+  header ul {
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+      
+  header ul li {
+    margin-right: 30px;
+  }
+    
+  main {
+    padding-top: 10px;
+  }
+  footer {
+    flex-direction: row;
+    height: 300px;
+    }
+    
+  .footer-website-description {
+    width: 30%;
+  }
+    
+  #footer-courses {
+    font-size: 25px;
+  }
+    
+  .footer-website-description-courses {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 10%;
+  }
+    
+  .footer-website-description-about {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 700px){
+  header img{
+    width: 100%;
+}
+#question {
+  width: 90%;
+}
+
+body{
+  width: 80%;
+}
+fieldset{
+  width: 80%;
+}
+section img{
+  height: 100px;
+  width: 220px;
+}
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog page</title>
+    <link href="styles/responsive.css" rel="stylesheet ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/log.png" alt="header image">
+        </div>
+        <ul>
+            <li><a href="../home/index.html">HOME</a></li>
+            <li><a href="../home/courses.html">COURSES</a></li>
+            <li><a href="courseoverview.html">COURSES OVERVIEW</a></li>
+            <li><a href="../quiz/index.html">QUIZ</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="../profile/profileStu.html">PROFILE</a></li>
+
+        </ul>
+    </header>
+    <!-- upper head section of the blog page containing links to the specific topics-->
+    <div class="blogheadStart">
+        <div id="onloadcontent"></div>
+        <!--on load it displays content dynamically on the head section of blog page-->
+        <div class="blogtopics">
+            <h2> Popular Technical topics</h2>
+            <ul>
+                <li> <a href="https://towardsdatascience.com/artificial-intelligence/home" target="_blank">ARTIFICIAL INTELLIGENCE</a><br><br></li>
+                <li> <a href="https://towardsdatascience.com/machine-learning/home" target="_blank">MACHINE LEARNING</a><br><br></li>
+                <li> <a href="https://towardsdatascience.com/data-science/home" target="_blank">DATA SCIENCE</a><br><br></li>
+                <li><a href="https://towardsdatascience.com/programming/home" target="_blank">PROGRAMMING</a><br><br></li>
+                <li> <a href="https://towardsdatascience.com/data-visualization/home" target="_blank">VISUALIZATION</a><br><br></li>
+                <li> <a href="https://towardsdatascience.com/data-journalism/home" target="_blank">JOURNALISM</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--main body begins here-->
+    <main>
+        <h2>We ensure that we will help you to respond to the questions that come in your mind. Here are some of the clarifications that might help you .......</h2>
+        <div class="mainblog">
+            <div class="blogcontainer">
+                <div class="blogqueans">
+                    <!--Questions and answers for the blog page-->
+                    <div>
+                        <button type="button" onclick="ans('ans1',0)">-> Get Answer </button>
+                        <label>Is HTML considered as Programming Language?</label>
+                        <p id="ans1"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans2',1)">-> Get Answer</button>
+                        <label>Is CSS considered as Programming Language?</label>
+                        <p id="ans2"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans3',2)">-> Get Answer</button>
+                        <label>What is Javascript?</label>
+                        <p id="ans3"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans4',3)">-> Get Answer</button>
+                        <label>What is the data structures used to perform recursion?</label>
+                        <p id="ans4"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans5',4)">-> Get Answer</button>
+                        <label>Who is E.F. Codd, and why is he significant in the development of modern database systems?</label>
+                        <p id="ans5"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans6',5)">-> Get Answer</button>
+                        <label>What is synchronization and why is it important in Advance java?</label>
+                        <p id="ans6"></p>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="ans('ans7',6)">-> Get Answer</button>
+                        <label>What are the main components of .NET Framework?</label>
+                        <p id="ans7"></p>
+                    </div>
+                </div>
+                <!--Question answers end here-->
+                <!--Latest technical blog items-->
+                <h3>Latest topics for technical knowledge are here</h3>
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog1.png" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://towardsdatascience.com/analyzing-global-distribution-of-data-science-and-ai-startups-through-angellist-database-30a89168a6b2" target="_blank">Analyzing the characteristics and global distribution of Data and AI startups</a>
+                        </div>
+                        <p>Shilpi Bhattacharya in Towards Data Science</p>
+                        <p>Oct 31 . 5 min read </p><i class="far fa-bookmark"></i>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog2.jpeg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/better-programming/from-neuroscience-to-computer-vision-e86a4dea3574" target="_blank">From Neuroscience to Computer Vision</a>
+                        </div>
+                        <p>A 50-year look at human and computer vision</p>
+                        <p>Seatal Data Guy</p>
+                        <p>Nov 8 . 6 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog3.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/assemblage/its-time-for-smaller-smartphones-7c66b8b45bd4" target="_blank">It is Time For Smaller Smartphones</a>
+                        </div>
+                        <p>Paying attention to real life is easier when your screen is smaller</p>
+                        <p>Megan Holstein</p>
+                        <p>Oct 30 . 5 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog4.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/pcmag-access/32-bit-vs-64-bit-oses-whats-the-difference-5f7de4a265ae" target="_blank">32-Bit vs. 64-Bit OSes: What is the Difference?</a>
+                        </div>
+                        <p>Chances are good you are running an x64-based operating system, but what does that even mean?</p>
+                        <p>PCMag</p>
+                        <p>Oct 29 . 6 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog5.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/better-marketing/facebook-is-giving-new-another-try-and-this-time-paying-publishers-104f3242bf2" target="_blank">Facebook Is Giving News Another Go</a>
+                        </div>
+                        <p>This time, it is even paying publishers</p>
+                        <p>David Linder</p>
+                        <p>Oct 26 . 3 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog6.jpeg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/future-vision/what-is-cloud-computing-713bd6c3b105" target="_blank">What is Cloud Computing?</a>
+                        </div>
+                        <p>Can you think of a business today that is not on the internet? </p>
+                        <p>Bivas Biswas</p>
+                        <p>Oct 29 . 10 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog7.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/better-marketing/worlds-top-10-keyword-research-tools-in-the-marketing-today-8d49abfd9c0c" target="_blank">The Top 10 Keyword Research Tools and How To Use Them</a>
+                        </div>
+                        <p>An in-depth guide to finding the set of SEO research tools that works for you</p>
+                        <p>Kaleb Austin Biauce</p>
+                        <p>Oct 29 . 15 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog8.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/assemblage/its-time-for-smaller-smartphones-7c66b8b45bd4" target="_blank">It is Time For Smaller Smartphones</a>
+                        </div>
+                        <p> Paying attention to real life is easier when your screen is smaller</p>
+                        <p>Megan Holstein</p>
+                        <p>Oct 30 . 8 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog9.jpeg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://towardsdatascience.com/how-to-fake-being-a-good-programmer-cbef2c39764c" target="_blank">How To Fake Being a Good Programmer</a>
+                        </div>
+                        <p>The secret is in the optics</p>
+                        <p>Sten Sootla</p>
+                        <p>Oct 29 . 5 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog10.jpeg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://towardsdatascience.com/top-mobile-app-trends-for-2020-266f9532e136" target="_blank">Top Mobile App Trends for 2020</a>
+                        </div>
+                        <p>Do you know how many apps are downloaded per annum?</p>
+                        <p>Patricia Neil</p>
+                        <p>Oct 29 . 5 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog11.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/pcmag-access/10-reasons-to-use-apple-maps-43805cd835dc" target="_blank">10 Reasons to Use Apple Maps</a>
+                        </div>
+                        <p>Apple Maps app has matured over the years and is now an effective navigation tool.
+                        </p>
+                        <p>PCMag</p>
+                        <p>Oct 11 . 6 min read </p>
+                    </div>
+                </div>
+
+                <div class="blogcontainer">
+                    <div class="blogitem">
+                        <img src="images/blog11.jpg" alt="learning site" height="100" width="100">
+                        <div class="zoom">
+                            <a href="https://medium.com/pcmag-access/10-reasons-to-use-apple-maps-43805cd835dc" target="_blank">10 Reasons to Use Apple Maps</a>
+                        </div>
+                        <p>Apple Maps app has matured over the years and is now an effective navigation tool.
+                        </p>
+                        <p>PCMag</p>
+                        <p>Oct 11 . 6 min read </p>
+                    </div>
+                </div>
+                <!--end of blog items-->
+            </div>
+            <!--end of main-->
+    </main>
+    <!--footer starts here-->
+    <footer>
+        <div class="footer-website-description">
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+        </div>
+        <div class="footer-website-description-courses">
+            <p id="footer-courses">Courses</p>
+            <p>Software Development</p>
+            <p>Banking and Finance</p>
+            <p>Visual Arts</p>
+            <p>Busness Managment</p>
+            <p>Software Engineering Technician</p>
+            <p>Photography</p>
+            <p>Social Media and Marketing</p>
+        </div>
+        <div class="footer-website-description-about">
+            <p id="footer-courses-about">About</p>
+            <p>Courses</p>
+            <p>Take a Quiz</p>
+            <p>Blog</p>
+            <p>Profile</p>
+        </div>
+    </footer>
+    <!--footer ends-->
+    <!--script to include JS file source-->
+    <script src="../login/scripts/blog.js"></script>
+</body>
+
+</html>

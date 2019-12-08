@@ -1,0 +1,189 @@
+body{
+  background-color: skyblue;
+  height: auto;
+  width: 80%;
+  box-shadow: 4px 4px grey;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times , Times New Roman, Serif;
+  color: rgb(51, 147, 236);
+}
+h1,h2,h3,h4,h5,h6{
+  color: darkblue;
+}
+a{
+  text-decoration: none;
+}
+.total{
+  background-color: white;
+  padding: 10px 150px 20px 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: black solid 2px;
+  width: 80%;
+  z-index: 9999;
+}
+  
+header ul {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  z-index: 999;
+}
+  
+header ul li {
+  list-style-type: none;
+  font-weight: 1000;
+}
+  
+header ul li a {
+  text-decoration: none;
+  color: #666;
+  font-weight: bolder;
+  font-size: 16px;
+}
+  
+header ul li a:hover {
+  color: red;
+}
+  
+.active {
+  color: orangered;
+}
+h2{
+  padding-left: 20px;
+}
+
+main p{
+  padding-left: 20px;;
+}
+.container{
+  padding: 10px 50px 10px 30px;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  justify-content: stretch;
+  gap: 20px 0px;
+}
+div img{
+  box-shadow: 4px 4px grey;
+}
+aside ul{
+  padding-left:0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+}
+  
+.footer-website-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 5%;
+}
+  
+  .footer-title-underline {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 20px;
+  }
+  
+  #footer-courses {
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+  
+  .footer-website-description-courses {
+    margin-left: 5%;
+  }
+  
+  .footer-website-description-courses p,
+  .footer-website-description-about p {
+    color: white;
+    margin: 0;
+    font-size: 13px;
+  }
+  
+  .footer-website-description-about {
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #footer-courses-about {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  
+@media screen and (min-width: 700px) {
+    header {
+        position: fixed;
+        width: 80%;
+        height: 60px;
+        background-color: white;
+    }
+    header ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+      
+    header ul li {
+        margin-right: 30px;
+    }
+    
+    main {
+        padding-top: 60px;
+    }
+    footer {
+        flex-direction: row;
+        height: 300px;
+      }
+    
+      .footer-website-description {
+        width: 30%;
+      }
+    
+      #footer-courses {
+        font-size: 25px;
+      }
+    
+      .footer-website-description-courses {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin-left: 10%;
+      }
+    
+      .footer-website-description-about {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+      }
+}
+@media screen and (max-width:700px){
+  .total{
+    padding: 5px;
+  }
+  .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  }
+  body{
+    width: 80%;
+  }
+}

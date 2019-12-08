@@ -1,0 +1,28 @@
+{
+    "navList": [
+        {
+            "navItemId": 1,
+            "navItem": "HOME"
+        },
+        {
+            "navItemId": 2,
+            "navItem": "COURSES"
+        },
+        {
+            "navItemId": 3,
+            "navItem": "TAKE A QUIZ"
+        },
+        {
+            "navItemId": 4,
+            "navItem": "ABOUT"
+        },
+        {
+            "navItemId": 5,
+            "navItem": "BLOG"
+        },
+        {
+            "navItemId": 6,
+            "navItem": "PROFILE"
+        }
+    ]
+}

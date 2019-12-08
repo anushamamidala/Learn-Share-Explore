@@ -1,0 +1,28 @@
+{
+    "courseDepartment": [
+        {
+            "courseDepartmentId": 1,
+            "courseDepartmentName": "HOME"
+        },
+        {
+            "courseDepartmentId": 2,
+            "courseDepartmentName": "COURSES"
+        },
+        {
+            "courseDepartmentId": 3,
+            "courseDepartmentName": "QUIZ"
+        },
+        {
+            "courseDepartmentId": 4,
+            "courseDepartmentName": "ABOUT"
+        },
+        {
+            "courseDepartmentId": 5,
+            "courseDepartmentName": "BLOG"
+        },
+        {
+            "courseDepartmentId": 6,
+            "courseDepartmentName": "PROFILE"
+        }
+    ]
+}

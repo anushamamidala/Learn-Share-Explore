@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <title>Learn Share Explore</title>
+</head>
+
+<body>
+    <!--main header begins-->
+    <header>
+        <div class="logo">
+            <img src="images/log.png" alt="header image">
+        </div>
+        <ul>
+            <li><a href="../home/index.html">HOME</a></li>
+            <li><a href="../home/courses.html">COURSES</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+
+        </ul>
+    </header>
+    <!--main header ends-->
+    <main>
+
+        <!--container for grid for content-->
+        <div class="registercontainer">
+            <div class="gridreg">
+                <div class="container2"><img src="images/projectimage5.jpg" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Learners can directly access the tutors for guidance</div>
+                    </div>
+                </div>
+                <div class="container2"><img src="images/projectimage6.png" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Leaners can experience different courses online</div>
+                    </div>
+                </div>
+                <div class="container2"><img src="images/projectimage7.jpg" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Instructors provide online guidance to the learners</div>
+                    </div>
+                </div>
+                <div class="container2"><img src="images/projectimage8.jpg" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Quiz are there for practice purposes for learners</div>
+                    </div>
+                </div>
+                <div class="container2"><img src="images/projectimage9.jpg" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Leaners can go through Frequently Asked Questions</div>
+                    </div>
+                </div>
+                <div class="container2"><img src="images/projectimage10.jpg" alt="learning site" height="160" width="200">
+                    <div class="overlay2">
+                        <div class="text">Only Authenticated users can access our site</div>
+                    </div>
+                </div>
+            </div>
+            <!--Registration form starts -->
+            <div class="registerform">
+
+                <form method="GET" onsubmit="return validation()" id="register">
+                    <!--Validation function is called on submit form-->
+                    <h2>Make New Account !</h2>
+                    <br>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your Firstname here"><span class="helper-text"></span><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your Lastname here"><span class="helper-text"></span><br>
+                    <input type="text" id="username" name="username" placeholder="Your Username here"><span class="helper-text"></span><br>
+                    <input type="password" id="password1" name="password1" placeholder="Your password here"><span class="helper-text"></span><br>
+                    <input type="password" id="password2" name="password2" placeholder="Retype password here"><span class="helper-text"></span><br>
+                    <input type="email" id="email" name="email" placeholder="Your Gmail Account"><span class="helper-text"></span><br>
+                    <input type="tel" id="tel" name="tel" placeholder="Your Contact Number"><span class="helper-text"></span><br><br>
+                    <input type="submit" value="Register" />
+                    <!-- <button type="button" id="loginbutton" onclick="window.location.href='login.html';">Login Now</button><br><br>-->
+                    <button type="button" id="loginbutton" onclick="location.href='login.html'">Login Now</button>
+
+                </form>
+                <!--registration form ends-->
+            </div>
+        </div>
+    </main>
+    <!--footer begins from here-->
+    <footer>
+        <div class="footer-website-description">
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+        </div>
+        <div class="footer-website-description-courses">
+            <p id="footer-courses">Courses</p>
+            <p>Software Development</p>
+            <p>Banking and Finance</p>
+            <p>Visual Arts</p>
+            <p>Busness Managment</p>
+            <p>Software Engineering Technician</p>
+            <p>Photography</p>
+            <p>Social Media and Marketing</p>
+        </div>
+        <div class="footer-website-description-about">
+            <p id="footer-courses-about">About</p>
+            <p>Courses</p>
+            <p>Take a Quiz</p>
+            <p>Blog</p>
+            <p>Profile</p>
+        </div>
+    </footer>
+
+    <!--including javascriptscript-->
+    <script src="../login/scripts/register.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{"questions":[
+    {
+        "question":"5. Can you add questions using JSON?",
+        "Answer":"Yes, this is the first Question i Have added from a JSON file"
+    },
+    {
+        "question":"6. Can you add more questions from JSON?",
+        "Answer":"Yes, we can add as many questions as we want, we just need to edit the Json file"
+    },
+    {
+        "question":"7. Can we add questions here and then view them",
+        "Answer":"At the moment. no as that needs the use of Python"
+    }
+]}

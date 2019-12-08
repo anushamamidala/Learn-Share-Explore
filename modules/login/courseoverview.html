@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Learn Share Explore</title>
+</head>
+
+<body>
+    <header>
+        <!--Header image-->
+        <div class="logo">
+            <img src="images/log.png" alt="header image">
+        </div>
+        <!--Header navigation-->
+        <ul>
+            <li><a href="../home/index.html">HOME</a></li>
+            <li><a href="../home/courses.html">COURSES</a></li>
+            <li><a href="#">COURSES OVERVIEW</a></li>
+            <li><a href="../quiz/index.html">QUIZ</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="../profile/profileStu.html">PROFILE</a></li>
+
+        </ul>
+    </header>
+
+    <div class="bg-color">
+        <div class="heading-search">
+            <span class="heading-bg">Explore brief descriptions of Courses</span>
+            <span class="heading-bg-caption">Enahnce your knowledge on different topics</span>
+            <div id="search-topic">
+                <input type="text" class="form-control" id="input" placeholder="Search by Topic name....." name="search" maxlength="300" onkeyup="searchTopic()">
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!--the container that provides the overview for each course topic-->
+        <div id="answer-area">
+            <h2>Overview</h2>
+            <div id="readArea"></div>
+            <button id="hide" onclick="hide()">Close</button>
+        </div>
+        <!--contaiiner having topics in stored in tabular form -->
+        <div class="topics-container">
+            <table id="tableTopics">
+                <thead>
+                    <tr>
+                        <th id="topic" scope="col">Course Topic</th>
+                        <th id="desc" scope="col">Get Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="0"></div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(0)">Description</button></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="1"></div>
+                            <div id="info">
+                            </div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(1)">Description</button></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="2"></div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(2)">Description</button></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="3"></div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(3)">Description</button></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="4"></div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(4)">Description</button></div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td headers="topic" class="AM1">
+                            <div id="5"></div>
+                        </td>
+                        <td headers="desc">
+                            <div class="getOverview"><button class="getOverviewButton" onclick="getDescription(5)">Description</button></div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <!--container which contains rating and slider -->
+        <div class="course-para">
+            <p>We hope that our site is helpful for you to brush up your knowledge and technical skills .....</p>
+        </div>
+        <div class="slider-stars">
+
+            <div id="ratings">
+                <h2>Your feedback matters : <b>Rate US</b></h2>
+                <div id="stars">
+                    <span class="fa fa-star" onmouseover="starmark(this)" onclick="" starmark(this) id="1s"></span>
+                    <span class="fa fa-star" onmouseover="starmark(this)" onclick="" starmark(this) id="2s"></span>
+                    <span class="fa fa-star" onmouseover="starmark(this)" onclick="" starmark(this) id="3s"></span>
+                    <span class="fa fa-star" onmouseover="starmark(this)" onclick="" starmark(this) id="4s"></span>
+                    <span class="fa fa-star" onmouseover="starmark(this)" onclick="" starmark(this) id="5s"></span>
+
+                    <button onclick="setRating()" id="rating-button">Rate the site</button><br><br>
+                </div>
+                <div id="overallrate">
+                    <label>Current ratings : </label>
+                    <span id="rate"></span><br>
+                    <span id="thanks-rating"></span><br>
+                    <label>Those who given their feedback : </label>
+                    <span id="viewers"></span><label> viewers </label>
+
+                </div>
+            </div>
+            <!--slider-->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+
+                    <img src="../login/images/blog5.jpg" alt="first" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="../login/images/blog6.jpeg" alt="second" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img src="../login/images/blog7.jpg" alt="third" style="width:100%">
+
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-website-description">
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+        </div>
+        <div class="footer-website-description-courses">
+            <p id="footer-courses">Courses</p>
+            <p>Software Development</p>
+            <p>Banking and Finance</p>
+            <p>Visual Arts</p>
+            <p>Busness Managment</p>
+            <p>Software Engineering Technician</p>
+            <p>Photography</p>
+            <p>Social Media and Marketing</p>
+        </div>
+        <div class="footer-website-description-about">
+            <p id="footer-courses-about">About</p>
+            <p>Courses</p>
+            <p>Take a Quiz</p>
+            <p>Blog</p>
+            <p>Profile</p>
+        </div>
+    </footer>
+    <!--To include javascript -->
+    <script src="../login/scripts/overview.js"></script>
+
+    <!--<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>-->
+</body>
+
+</html>

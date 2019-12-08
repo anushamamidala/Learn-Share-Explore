@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../../assets/images/logo.png" />
+    <link rel="stylesheet" href="./styles/courses-styles.css">
+    <link rel="stylesheet" href="./styles/index-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Learn Share Explore</title>
+</head>
+
+<body>
+    <header>
+        <img src="../../assets/images/log.png" class="logoImage" alt="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#" class="active">COURSES</a></li>
+            <li><a href="../quiz/index.html">QUIZ</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+            <li><a href="../login/Blog.html">BLOG</a></li>
+            <li><a href="../profile/profileStu.html">PROFILE</a></li>
+        </ul>
+    </header>
+
+    <main class="main-courses">
+        <!-- Main Heading Background -->
+        <section class="main-bg-color">
+        </section>
+
+        <!-- My courses section -->
+        <section class="courses-container">
+            <div class="my-courses-container">
+                <div class="my-courses-headings">
+                    <h2>My Courses</h2>
+                    <select onchange="ChangeSelectedOptions()" class="my-courses-category-select">                        
+                    </select>
+                </div>
+                <!-- creates trending courses list -->
+                <div class="my-courses-cards">                    
+                </div>
+                <div class="my-courses-container">
+                    <div class="my-courses-headings">
+                        <h2>Trending Courses</h2>
+                    </div>
+                    <!-- CreateCoursesList -->
+                    <div class="my-courses-cards">                        
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-website-description">
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best
+                education, partnering
+                with top universities and organizations to offer courses online.</p>
+        </div>
+        <div class="footer-website-description-courses">
+            <p id="footer-courses">Courses</p>
+            <p>Software Development</p>
+            <p>Banking and Finance</p>
+            <p>Visual Arts</p>
+            <p>Busness Managment</p>
+            <p>Software Engineering Technician</p>
+            <p>Photography</p>
+            <p>Social Media and Marketing</p>
+        </div>
+        <div class="footer-website-description-about">
+            <p id="footer-courses-about">About</p>
+            <p>Courses</p>
+            <p>Take a Quiz</p>
+            <p>Blog</p>
+            <p>Profile</p>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../home/scripts/courses.js"></script>
+    <script src="../home/scripts/common.js"></script>
+</body>
+
+</html>

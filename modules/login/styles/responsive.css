@@ -1,0 +1,1166 @@
+          body {
+              margin-top: 0;
+          }
+          /* custom scroll bar*/
+          /*starts*/
+          
+           ::-webkit-scrollbar {
+              width: 10px;
+          }
+          
+           ::-webkit-scrollbar-thumb {
+              border-radius: 10px;
+              background-color: rgb(51, 102, 154);
+          }
+          
+           ::-webkit-scrollbar-track {
+              border-radius: 10px;
+              background-color: white;
+          }
+          
+           ::-webkit-scrollbar-thumb:hover {
+              background-color: rgb(113, 138, 163);
+          }
+          /*ends*/
+          
+          main {
+              width: 80%;
+              margin-left: 130px;
+              margin-bottom: 50px;
+          }
+          /*header for desktop*/
+          
+          header {
+              display: flex;
+              align-items: center;
+              padding-bottom: 10px;
+              width: 100%;
+              z-index: 9999;
+          }
+          
+          header ul {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              align-items: center;
+              z-index: 999;
+          }
+          
+          header ul li {
+              list-style-type: none;
+          }
+          
+          header ul li a {
+              text-decoration: none;
+              color: #666;
+              font-weight: bolder;
+              font-size: 16px;
+          }
+          
+          header ul li a:hover {
+              color: red;
+          }
+          
+          .active {
+              color: orangered;
+          }
+          /*login begins*/
+          
+          .logincontainer {
+              background-color: rgb(248, 246, 242);
+              margin-top: 50px;
+          }
+          
+          #loginimage {
+              float: left;
+          }
+          
+          #loginform {
+              float: right;
+              margin-right: 20px;
+          }
+          
+          #loginform span {
+              color: red;
+              padding-left: 40px;
+              font-size: 20px;
+          }
+          
+          #loginpara {
+              color: brown;
+              font-size: 20px;
+          }
+          
+          #loginform form input[type=text] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              text-align: center;
+              border-bottom: 1px solid grey;
+          }
+          
+          #loginform form input[type=password] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              color: grey;
+              font-size: 16px;
+              border: 1px grey;
+              text-align: center;
+              border-bottom: 1px solid grey;
+          }
+          
+          #loginbutton {
+              background-color: rgb(0, 68, 255);
+              border: solid;
+              width: 100px;
+              height: 50px;
+              color: white;
+              margin-left: 37px;
+              margin-top: 20px;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 15px;
+              border-radius: 5px;
+          }
+          
+          #signupbutton {
+              background-color: bisque;
+              width: 100px;
+              height: 50px;
+              color: black;
+              margin-left: 10px;
+              margin-top: 20px;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 15px;
+              border-radius: 5px;
+              border: none;
+          }
+          /*login feature ends*/
+          /*Register feature*/
+          
+          .registercontainer {
+              background-color: rgb(248, 246, 242);
+          }
+          /*for containing all grid items */
+          
+          .gridreg {
+              border: 1px solid white;
+              display: grid;
+              grid-template-rows: 200px 200px;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 20px;
+              float: left;
+              grid-template-rows: 200px 200px 200px;
+              grid-template-columns: repeat(2, 1fr);
+              grid-gap: 20px;
+              float: right;
+          }
+          /* container for grid item*/
+          
+          .container2 {
+              position: relative;
+              width: 50%;
+          }
+          /* overlay text style*/
+          
+          .overlay2 {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 80%;
+              width: 100%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #FFF5EE;
+          }
+          
+          .container2:hover .overlay2 {
+              opacity: 1;
+          }
+          /*text styling for overlay container*/
+          
+          .text {
+              color: black;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+          }
+          
+          .registerform {
+              float: left;
+          }
+          
+          .registercontainer {
+              background-color: peru;
+          }
+          /*registration span element*/
+          
+          .helper-text {
+              color: red;
+          }
+          
+          .registerform form input[type=text] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              border: 1px solid grey;
+              text-align: center;
+          }
+          
+          .registerform form input[type=password] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              border: 1px solid grey;
+              text-align: center;
+          }
+          
+          .registerform form input[type=password] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              border: 1px solid grey;
+              text-align: center;
+          }
+          
+          .registerform form input[type=email] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              text-align: center;
+              border: 1px solid grey;
+          }
+          
+          .registerform form input[type=tel] {
+              background-color: white;
+              height: 60px;
+              width: 300px;
+              font-size: 16px;
+              color: grey;
+              border: 1px grey;
+              border: 1px solid grey;
+              text-align: center;
+          }
+          
+          .registerform #registerbutton {
+              background-color: rgb(0, 68, 255);
+              border: solid;
+              width: 100px;
+              height: 50px;
+              color: white;
+              margin-left: 15px;
+              margin-top: 20px;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 15px;
+              border-radius: 5px;
+          }
+          
+          .registerform form input[type=submit] {
+              background-color: rgb(0, 68, 255);
+              border: solid;
+              width: 100px;
+              height: 50px;
+              color: white;
+              margin-left: 15px;
+              margin-top: 20px;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 15px;
+              border-radius: 5px;
+          }
+          /*Registration ends */
+          /*blog feature starts*/
+          /* to zoom the blog headings*/
+          
+          .zoom:hover {
+              transform: scale(1.1);
+          }
+          /* on load the content blinks*/
+          
+          #onloadcontent {
+              float: left;
+              padding-top: 120px;
+              padding-left: 50px;
+              font-size: 25px;
+              animation: blinker 3s linear infinite;
+          }
+          
+          @keyframes blinker {
+              50% {
+                  opacity: 0;
+              }
+          }
+          /*head section of the blog page*/
+          
+          .blogheadStart {
+              padding-top: 50px;
+              background-color: #F1F2F6;
+              border-bottom: 2px solid black;
+              background-image: url('../images/Bloghomeimage2.jpg');
+          }
+          /*recent topics of search in the head section*/
+          
+          .blogtopics a:hover {
+              color: red;
+          }
+          
+          .blogtopics ul li {
+              list-style-type: none;
+          }
+          
+          .blogtopics {
+              margin-left: 900px;
+              padding-top: 20px;
+              width: 300px;
+          }
+          
+          .blogtopics h2 {
+              border-bottom: 1px solid grey;
+              padding-bottom: 20px;
+              color: rgb(71, 70, 70);
+          }
+          
+          .blogtopics a {
+              text-decoration: none;
+              color: black;
+          }
+          /*question answers for the blog page*/
+          
+          .blogqueans {
+              padding-bottom: 50px;
+              background-color: #F1F2F6;
+          }
+          
+          .blogqueans button {
+              margin-left: 150px;
+              background-color: #F1F2F6;
+              color: rgb(24, 39, 39);
+              margin-top: 10px;
+              border: none;
+          }
+          
+          .blogqueans label {
+              margin-left: 30px;
+              padding-top: 20px;
+              font-size: 18px;
+              color: rgb(43, 15, 66);
+          }
+          
+          .blogqueans p {
+              margin-left: 100px;
+              margin-right: 100px;
+              color: rgb(65, 5, 5);
+          }
+          /* container of blog items */
+          /*main blog including blog container and blog items*/
+          
+          .mainblog {
+              clear: both;
+              margin-top: 20px;
+              padding-left: 40px;
+              padding-right: 40px;
+              padding-bottom: 40px;
+          }
+          
+          .blogcontainer {
+              padding-top: 30px;
+              background-color: #F1F2F6;
+          }
+          
+          .mainblog h2 {
+              border-bottom: 1px solid grey;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              color: rgb(37, 37, 37);
+              padding-left: 300px;
+          }
+          
+          .mainblog h3 {
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 300px;
+          }
+          
+          .mainblog a {
+              text-decoration: none;
+              font-size: 20px;
+              color: rgb(66, 65, 65);
+          }
+          
+          .mainblog p {
+              color: rgb(34, 33, 33);
+          }
+          
+          a.blogitem {
+              float: left;
+          }
+          
+          a.blogitemimage {
+              float: right;
+          }
+          
+          .blogitem {
+              position: relative;
+              padding-left: 100px;
+              border-bottom: 2px solid black;
+          }
+          
+          .blogitem a:hover {
+              color: red;
+          }
+          
+          .blogitem img {
+              float: right;
+              padding-right: 300px;
+          }
+          
+          .blogitemimage {
+              position: absolute;
+          }
+          /*blog feature ends*/
+          /* course overview*/
+          
+          .bg-color {
+              display: flex;
+              background-image: linear-gradient( to bottom, rgba(0, 6, 10, 0.59), rgb(51, 102, 154)), url(./assets/images/learn-course.jpeg);
+              background-repeat: no-repeat;
+              background-position: 95% center;
+              background-size: 100% 400px;
+              width: 100%;
+              height: 300px;
+          }
+          
+          .heading-search {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              justify-content: center;
+              margin-left: 30%;
+          }
+          
+          .bg-color .heading-bg {
+              display: inline-block;
+              margin-top: 0;
+              font-weight: bolder;
+              font-size: xx-large;
+              color: white;
+          }
+          
+          .bg-color .heading-bg-caption {
+              margin-top: 0;
+              font-size: 20px;
+              margin-top: 0px;
+              color: white;
+          }
+          
+          .form-control {
+              width: 400px;
+              height: 30px;
+              display: inline-flex;
+              margin: 10px 5px;
+              border-radius: 0;
+              box-shadow: none;
+              border: none;
+              font-size: 16px;
+              padding-left: 20px;
+          }
+          
+          .topics-container {
+              display: flex;
+              flex-wrap: wrap;
+              background: white;
+              border-radius: 5px;
+              box-shadow: 2px 2px 2px 2px lightgrey;
+              width: 100%;
+              margin-top: 10px;
+              margin-bottom: 20px;
+          }
+          
+          #answer-area {
+              width: 100%;
+              height: 200px;
+              display: flex;
+              flex-wrap: wrap;
+              background: white;
+              border-radius: 5px;
+              box-shadow: 2px 2px 2px 2px lightgrey;
+              margin-left: 0;
+              margin-top: 10px;
+              margin-bottom: 20px;
+              padding: 20px 10px 10px 20px;
+              overflow-y: scroll;
+          }
+          
+          #answer-area h2 {
+              margin-left: 450px;
+          }
+          
+          #hide {
+              margin-left: 990px;
+              border: none;
+              color: red;
+              height: 20px;
+          }
+          
+          .getOverviewButton {
+              height: 20px;
+              width: 100px;
+              border: none;
+              color: red;
+          }
+          
+          table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+          }
+          
+          td,
+          th {
+              border: 1px solid #dddddd;
+              text-align: center;
+              padding: 8px;
+          }
+          
+          tr:nth-child(even) {
+              background-color: #dddddd;
+          }
+          
+          .course-para {
+              font-size: 25px;
+              color: rgb(14, 27, 41);
+              margin-left: 100px;
+              margin-top: 20px;
+          }
+          
+          #ratings {
+              margin-top: 100px;
+          }
+          
+          #rating-button {
+              color: white;
+              background-color: rgb(89, 148, 89);
+              border-radius: 8px;
+              height: 30px;
+              width: 100px;
+          }
+          
+          #overallrate {
+              font-size: 20px;
+          }
+          
+          #thanks-rating {
+              margin-top: 10px;
+              color: rgb(179, 13, 13);
+              font-size: 20px;
+          }
+          
+          .slider-stars {
+              display: flex;
+              flex-direction: row;
+              margin-top: 50px;
+          }
+          /*slider*/
+          
+          .slideshow-container {
+              width: 590px;
+              height: 400px;
+              position: relative;
+              margin-left: 110px;
+          }
+          /* Hide the images by default */
+          
+          .mySlides {
+              display: none;
+          }
+          /* Next & previous buttons */
+          
+          .prev,
+          .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              margin-top: -22px;
+              padding: 16px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+          }
+          /* Position the "next button" to the right */
+          
+          .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+          }
+          /* On hover, add a black background color with a little bit see-through */
+          
+          .prev:hover,
+          .next:hover {
+              background-color: rgba(0, 0, 0, 0.8);
+          }
+          /* Caption text */
+          
+          .text {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+          }
+          /* Number text (1/3 etc) */
+          
+          .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+          }
+          
+          .active,
+          .dot:hover {
+              background-color: #717171;
+          }
+          /* Fading animation */
+          
+          .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 3.5s;
+              animation-name: fade;
+              animation-duration: 3.5s;
+          }
+          
+          @-webkit-keyframes fade {
+              from {
+                  opacity: .4
+              }
+              to {
+                  opacity: 1
+              }
+          }
+          
+          @keyframes fade {
+              from {
+                  opacity: .4
+              }
+              to {
+                  opacity: 1
+              }
+          }
+          /*course overview ends*/
+          
+          footer {
+              display: flex;
+              flex-direction: row;
+              height: 300px;
+              background-color: #333333;
+              clear: both;
+          }
+          
+          .footer-website-description {
+              display: flex;
+              flex-direction: column;
+              width: 30%;
+              margin-left: 5%;
+          }
+          
+          #footer-courses {
+              color: white;
+              font-weight: bolder;
+              font-size: 25px;
+              padding-bottom: 10px;
+          }
+          
+          .footer-website-description-courses {
+              margin-top: 50px;
+              display: flex;
+              flex-direction: column;
+              width: 15%;
+              margin-left: 10%;
+          }
+          
+          .footer-website-description-courses p,
+          .footer-website-description-about p {
+              color: white;
+              margin: 0;
+              font-size: 13px;
+          }
+          
+          .footer-website-description-about {
+              margin-top: 50px;
+              display: flex;
+              flex-direction: column;
+              margin-left: 0;
+          }
+          
+          #footer-courses-about {
+              margin-top: 0;
+              margin-bottom: 0;
+              color: white;
+              font-weight: bolder;
+              font-size: 25px;
+              padding-bottom: 10px;
+          }
+          /* styles for responsiveness .. mobile devices*/
+          
+          @media screen and (min-width: 700px) {
+              main {
+                  padding-top: 60px;
+              }
+              header {
+                  position: fixed;
+                  width: 80%;
+                  height: 60px;
+                  background-color: white;
+                  margin-left: 10%;
+              }
+              header ul {
+                  justify-content: flex-end;
+                  flex-direction: row;
+              }
+              header ul li {
+                  margin-right: 30px;
+              }
+              .container {
+                  flex-direction: row;
+                  height: 600px;
+              }
+              .container h1 {
+                  font-size: 40px;
+                  margin-left: 200px;
+                  margin-right: 200px;
+                  padding-left: 60px;
+              }
+              .laptop-png {
+                  height: 40px;
+                  margin-left: 10px;
+              }
+              footer {
+                  flex-direction: row;
+                  height: 300px;
+              }
+              .footer-website-description {
+                  width: 30%;
+              }
+              #footer-courses {
+                  font-size: 25px;
+              }
+              .footer-website-description-courses {
+                  margin-top: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  width: 15%;
+                  margin-left: 10%;
+              }
+              .footer-website-description-about {
+                  margin-top: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 0;
+              }
+              .footer-title-underline {
+                  margin-top: 50px;
+                  color: rgba(255, 255, 255, 0.575);
+                  font-size: 20px;
+              }
+          }
+          
+          @media screen and (max-width: 770px) {
+              main {
+                  width: auto;
+              }
+              .logincontainer {
+                  background-color: rgb(248, 246, 242);
+              }
+              #loginimage {
+                  display: none;
+              }
+              #loginform {
+                  margin-right: 20px;
+                  margin-left: 20px;
+              }
+              #loginform h2 {
+                  margin-left: 0.1em;
+              }
+              #loginform span {
+                  color: red;
+                  font-size: 15px;
+              }
+              #loginpara {
+                  color: brown;
+                  font-size: 15px;
+              }
+              /*register*/
+              .gridreg {
+                  display: none;
+              }
+              .registercontainer {
+                  width: 100%;
+                  margin-left: -100px;
+              }
+              .registerform h2 {
+                  margin-left: 50px;
+              }
+              .registerform form input[type=text] {
+                  background-color: white;
+                  height: 50px;
+                  width: 300px;
+                  font-size: 15px;
+                  color: grey;
+                  border: 1px grey;
+                  padding-left: 5px;
+                  border: 1px solid grey;
+              }
+              .registerform form input[type=password] {
+                  background-color: white;
+                  height: 50px;
+                  width: 300px;
+                  font-size: 15px;
+                  color: grey;
+                  border: 1px grey;
+                  padding-left: 5px;
+                  border: 1px solid grey;
+              }
+              .registerform form input[type=password] {
+                  background-color: white;
+                  height: 50px;
+                  width: 300px;
+                  font-size: 15px;
+                  color: grey;
+                  border: 1px grey;
+                  padding-left: 5px;
+                  border: 1px solid grey;
+              }
+              .registerform form input[type=email] {
+                  background-color: white;
+                  height: 50px;
+                  width: 300px;
+                  font-size: 15px;
+                  color: grey;
+                  border: 1px grey;
+                  padding-left: 5px;
+                  border: 1px solid grey;
+              }
+              .registerform form input[type=tel] {
+                  background-color: white;
+                  height: 50px;
+                  width: 300px;
+                  font-size: 15px;
+                  color: grey;
+                  border: 1px grey;
+                  padding-left: 5px;
+                  border: 1px solid grey;
+              }
+              .registerform #loginbutton {
+                  background-color: rgb(0, 68, 255);
+                  border: solid;
+                  width: 90px;
+                  height: 40px;
+                  color: white;
+                  margin-left: 15px;
+                  margin-top: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 15px;
+                  border-radius: 30px;
+              }
+              .registerform form input[type=submit] {
+                  background-color: rgb(0, 68, 255);
+                  border: solid;
+                  width: 90px;
+                  height: 40px;
+                  color: white;
+                  margin-left: 40px;
+                  margin-top: 5px;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 15px;
+                  border-radius: 30px;
+              }
+              .helper-text {
+                  padding-left: 70px;
+              }
+              /*footer*/
+              footer {
+                  flex-direction: column;
+                  height: auto;
+              }
+              .footer-website-description {
+                  width: auto;
+              }
+              #footer-courses {
+                  font-size: 25px;
+              }
+              .footer-website-description-courses {
+                  margin-top: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  width: 15%;
+                  margin-left: 10%;
+              }
+              .footer-website-description-about {
+                  margin-top: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  margin-left: 10%;
+              }
+              .footer-title-underline {
+                  margin-top: 50px;
+                  color: rgba(255, 255, 255, 0.575);
+                  font-size: 20px;
+              }
+              .logo {
+                  display: none;
+              }
+              /*blog page*/
+              /*head section of the blog page*/
+              .blogheadStart {
+                  display: none;
+              }
+              .blogtopics h2 {
+                  display: none;
+              }
+              /*question answers for the blog page*/
+              .blogqueans {
+                  padding-bottom: 50px;
+                  background-color: #F1F2F6;
+              }
+              .blogqueans button {
+                  margin-left: 0px;
+                  background-color: #F1F2F6;
+                  color: rgb(24, 39, 39);
+                  margin-top: 10px;
+                  border: none;
+              }
+              .blogqueans label {
+                  margin-left: 5px;
+                  padding-top: 5px;
+                  font-size: 15px;
+                  color: rgb(43, 15, 66);
+              }
+              .blogqueans p {
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  color: rgb(65, 5, 5);
+              }
+              /* container of blog items */
+              /*main blog including blog container and blog items*/
+              .mainblog {
+                  clear: both;
+                  margin-left: -130px;
+                  margin-top: 5px;
+                  padding-left: 2px;
+                  padding-right: 2px;
+                  padding-bottom: 5px;
+              }
+              .blogcontainer {
+                  padding-top: 5px;
+                  background-color: #F1F2F6;
+              }
+              main h2 {
+                  padding-top: 1px;
+                  padding-bottom: 1px;
+                  font-size: 18px;
+                  color: rgb(37, 37, 37);
+                  margin-left: -80px;
+              }
+              .mainblog h3 {
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+              }
+              .mainblog a {
+                  text-decoration: none;
+                  font-size: 15px;
+                  color: rgb(66, 65, 65);
+              }
+              .mainblog p {
+                  color: rgb(34, 33, 33);
+              }
+              a.blogitem {
+                  float: left;
+              }
+              .blogitem {
+                  border-bottom: 0.5px solid black;
+              }
+              .blogitem a:hover {
+                  color: red;
+              }
+              .blogitem img {
+                  float: right;
+                  padding-right: 0px;
+              }
+              .blogitemimage {
+                  position: absolute;
+              }
+              /* course overview*/
+              .bg-color {
+                  display: flex;
+                  background-image: linear-gradient( to bottom, rgba(0, 6, 10, 0.59), rgb(51, 102, 154)), url(./assets/images/learn-course.jpeg);
+                  background-repeat: no-repeat;
+                  background-position: 95% center;
+                  background-size: 100% 400px;
+                  width: 100%;
+                  height: 200px;
+              }
+              .heading-search {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: left;
+                  margin-left: 10px;
+              }
+              .bg-color .heading-bg {
+                  display: inline-block;
+                  margin-top: 0;
+                  font-weight: bolder;
+                  font-size: x-large;
+                  color: white;
+              }
+              .bg-color .heading-bg-caption {
+                  margin-top: 0;
+                  font-size: 20px;
+                  margin-top: 0px;
+                  color: white;
+              }
+              .form-control {
+                  width: 200px;
+                  height: 20px;
+                  display: inline-flex;
+                  margin: 10px 5px;
+                  border-radius: 0;
+                  box-shadow: none;
+                  border: none;
+                  font-size: 16px;
+                  padding-left: 10px;
+              }
+              .topics-container {
+                  display: flex;
+                  flex-wrap: wrap;
+                  background: white;
+                  border-radius: 5px;
+                  box-shadow: 2px 2px 2px 2px lightgrey;
+                  width: auto;
+                  margin-top: 10px;
+                  margin-bottom: 20px;
+                  margin-left: -140px;
+              }
+              #answer-area {
+                  width: auto;
+                  height: auto;
+                  display: flex;
+                  flex-wrap: wrap;
+                  background: white;
+                  border-radius: 5px;
+                  box-shadow: 2px 2px 2px 2px lightgrey;
+                  margin-left: -130px;
+                  margin-top: 10px;
+                  margin-bottom: 20px;
+                  padding: 20px 10px 10px 20px;
+                  overflow: hidden;
+              }
+              #answer-area h2 {
+                  margin-left: 110px;
+              }
+              #ratings {
+                  width: auto;
+                  display: flex;
+                  flex-direction: column;
+              }
+              #stars {
+                  display: flex;
+                  flex-direction: row;
+              }
+              #rating-button {
+                  color: white;
+                  background-color: rgb(89, 148, 89);
+                  border-radius: 3px;
+                  height: 30px;
+                  width: 100px;
+              }
+              #hide {
+                  margin-left: 260px;
+                  border: none;
+                  color: red;
+                  height: 20px;
+              }
+              .getOverviewButton {
+                  height: 20px;
+                  width: 100px;
+                  border: none;
+                  color: red;
+              }
+              table {
+                  font-family: arial, sans-serif;
+                  border-collapse: collapse;
+                  width: 100%;
+              }
+              td,
+              th {
+                  border: 1px solid #dddddd;
+                  text-align: center;
+                  padding: 8px;
+              }
+              tr:nth-child(even) {
+                  background-color: #dddddd;
+              }
+              #ratings h2 {
+                  margin-left: 3px;
+              }
+              #overallrate {
+                  font-size: 20px;
+              }
+              .course-para {
+                  display: none;
+              }
+              #thanks-rating {
+                  margin-left: 0px;
+                  color: rgb(179, 13, 13);
+                  font-size: 20px;
+              }
+              .slider-stars {
+                  display: flex;
+                  flex-direction: column;
+                  margin: -40px;
+                  margin-right: 0px;
+              }
+              /*slider*/
+              .slideshow-container {
+                  width: 200px;
+                  height: 200px;
+                  position: relative;
+                  margin-top: 10px;
+                  margin-left: 0px;
+              }
+              /*course overview ends*/
+          }
