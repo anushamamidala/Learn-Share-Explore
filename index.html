@@ -4,194 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="../../assets/images/logo.png"/>
-    <link rel="stylesheet" href="./styles/stylesres.css">
+    <link rel="shortcut icon" type="image/png" href="../../assets/images/logo.png" />
+    <link rel="stylesheet" href="./styles/index-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <title>Learn Share Explore</title>
 </head>
 
 <body>
     <header>
-        <img src="./../../assets/images/log.png" alt="Logo">
+        <img src="./assets/images/log.png" alt="Logo" class="logoImage">
         <ul>
             <li><a href="#" class="active">HOME</a></li>
             <li><a href="courses.html">COURSES</a></li>
-            <li><a href="">TAKE A QUIZ</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">PROFILE</a></li>
+            <li><a href="../quiz/index.html">QUIZ</a></li>
+            <li><a href="../profile/aboutUs.html">ABOUT</a></li>
+            <li><a href="../login/Blog.html">BLOG</a></li>
+            <li><a href="../profile/profileStu.html">PROFILE</a></li>
         </ul>
     </header>
 
     <main>
         <div class="container">
-            <h1>
-                Learn, Share & Explore! <br><br>
-                <span class="title-caption">A better way to learn to code websites, apps, and games...</span>
-            </h1>
-            <img src="../../assets/images/home-background-image.jpg" alt="Home Page Background Image" class="laptop-png">
+            <img src="./assets/images/web-background.png" alt="Home Page Background Image" class="web-background">
+            <img src="./assets/images/mobile-home.png" alt="Home Page Background Image" class="mobile-background">
         </div>
 
         <!-- Popular courses section -->
         <section class="categories-section">
             <h2 class="study-program-heading">Popular Courses</h2>
+
+            <!-- Gets all the filterd Courses list from getFilteredList -->
             <div class="courses-nav-tab">
-                <span class="active">ALL</span>
-                <span>IT</span>
-                <span>ENGINEERING</span>
-                <span>ART</span>
-                <span>VISUAL DESIGN</span>
             </div>
 
+            <!-- Gets all the courses from createcoursesList -->
             <div class="course-cards">
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Software Development</p>
-                            <p class="overlay-text-small">Specializations and courses in software development
-                                address the process of creating Software using specific Methodologies.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/software-development.jpeg" alt="Sofware Development Image" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Software Development</p>
-                        <pre class="course-titile-tag">|  IT</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Banking and Finance</p>
-                            <p class="overlay-text-small">course provides students with an in-depth understanding of
-                                international banking and financial systems and structures, and regulatory policies.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/banking-and-finance.jpeg" alt="Banking and Finance Image" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Banking and Finance</p>
-                        <pre class="course-titile-tag">|  ECONOMY</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Visual Arts</p>
-                            <p class="overlay-text-small">Five key areas of concentration offer courses in the
-                                disciplines of ceramics, drawing, painting, print media, and sculpture. The Visual Arts
-                                Major brings academic rigour to your development of conceptual, technical, and
-                                historical knowledge relevant to visual art practice and exhibition.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/visual-arts.jpg" alt="Visual Arts Images" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Visual Arts</p>
-                        <pre class="course-titile-tag">|  ART</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Business Managment</p>
-                            <p class="overlay-text-small">BBM degree is designed to teach students the skills necessary
-                                to perform leadership roles in the business and corporate world.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/business-managment.jpeg" alt="Business Managment Images" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Business Managment</p>
-                        <pre class="course-titile-tag">|  ECONOMY</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Software Engineering Technician</p>
-                            <p class="overlay-text-small">program that teaches the skills required to write computer
-                                software while developing problem-solving skills using a variety of computer languages
-                                in a technical programming environment.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/software-engineering-technician.jpg" alt="Software Engineering Technician Image" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Software Engineering Technician</p>
-                        <pre class="course-titile-tag">|  ENGINEERING</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Photography</p>
-                            <p class="overlay-text-small">This course let students operate a camera to take photographs
-                                and produce prints. a. Students develop essential skills in camera use with a focus on
-                                basic composition, set-up and an examination of exposure. Students operate a camera to
-                                capture images and produce final display proofs.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/photography.jpeg" alt="Photography Image" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Photography</p>
-                        <pre class="course-titile-tag">|  ART</pre>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <div class="overlay">
-                        <div class="overlay-text">
-                            <p>Software Development</p>
-                            <p class="overlay-text-small">The strategy will outline ad copy, targeting and demographics,
-                                and demonstrate a deep understanding of performance driven social media marketing.</p>
-                        </div>
-                    </div>
-                    <img src="../../assets/images/social-media-and-marketing.jpeg" alt="Social Media and marketing Image" style="width:100%">
-                    <div class="course-image-title">
-                        <p class="course-title">Social Media & Marketing</p>
-                        <pre class="course-titile-tag">|  VISUAL DESIGN</pre>
-                    </div>
-                </div>
             </div>
-            <button class="all-courses-button">View all courses</button>
+            
+            <button class="all-courses-button" onclick="OnclickViewAllCourses()">View all courses</button>
         </section>
 
         <!-- review section -->
         <section class="review-section">
-            <div class="review-section-card">
-                <p class="review-content">"I have taken the course on Software Engineering in Learn share and Explore
-                    which helped me not only deeply understanding the course but also to clear my
-                    doubts simultaniously."</p>
-                <img class="review-section-img" src="../../assets/images/default-picture-review.png" alt="Default Profile Male"/>
-
-            </div>
-            <div class="review-section-card">
-                <p class="review-content">"I had a very good experience with Learn, Share and Explore.
-                    Highly Recommend others to use."</p>
-                <img class="review-section-img" src="../../assets/images/user_profile_female.jpg" alt="Default Profile Female"/>
-            </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-website-description">
-            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best
-                education, partnering
-                with top universities and organizations to offer courses online.</p>
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
         </div>
         <div class="footer-website-description-courses">
-            <p id="footer-courses">Courses</p>
-            <p>Software Development</p>
-            <p>Banking and Finance</p>
-            <p>Visual Arts</p>
-            <p>Busness Managment</p>
-            <p>Software Engineering Technician</p>
-            <p>Photography</p>
-            <p>Social Media and Marketing</p>
+            <p id="footer-courses">Popular Courses</p>
+            <a href="course-videos.html">
+                <p>Software Development</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Banking and Finance</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Visual Arts</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Busness Managment</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Software Engineering Technician</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Photography</p>
+            </a>
+            <a href="course-videos.html">
+                <p>Social Media and Marketing</p>
+            </a>
         </div>
         <div class="footer-website-description-about">
-            <p id="footer-courses-about">About</p>
-            <p>Courses</p>
-            <p>Take a Quiz</p>
-            <p>Blog</p>
-            <p>Profile</p>
+            <p id="footer-courses-about">Learn Share Explore</p>
+            <a href="courses.html">
+                <p>Courses</p>
+            </a>
+            <a href="../quiz/index.html">
+                <p>Take a Quiz</p>
+            </a>
+            <a href="../profile/aboutUs.html">
+                <p>About</p>
+            </a>
+            <a href="../login/Blog.html">
+                <p>Blog</p>
+            </a>
+            <a href="../profile/profileStu.html">
+                <p>Profile</p>
+            </a>
         </div>
     </footer>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/common.js"></script>
 </body>
 
 </html>

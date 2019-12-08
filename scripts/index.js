@@ -8,13 +8,13 @@ $(document).ready(function() {
             $('header').removeClass('solid');
         }
       });
-    $.getJSON('../home/JSONData/course-list.json', function(data) {
+    $.getJSON('./modules/home/JSONData/course-list.json', function(data) {
     coursesList = data.coursesList;
     getFilteredListElements(coursesList);
     createCoursesList(coursesList);
 });
 
-$.getJSON('../home/JSONData/comments.json', function(data){
+$.getJSON('./modules/home/JSONData/comments.json', function(data){
     generateCommentsOnLoad(data.comments)
 });
 });
