@@ -50,7 +50,7 @@
             "courseTitle": "Visual Arts",
             "description": "",
             "courseDepartment": "ART",
-            "imageSrc": "../../assets/images/visual-arts.jpg",
+            "imageSrc": "./assets/images/visual-arts.jpg",
             "progressWidth": "0%",
             "isTrending": true
         },
@@ -59,7 +59,7 @@
             "courseTitle": "Banking and Finance",
             "description": "",
             "courseDepartment": "ECONOMY",
-            "imageSrc": "../../assets/images/banking-and-finance-1.jpeg",
+            "imageSrc": "./assets/images/banking-and-finance-1.jpeg",
             "progressWidth": "0%",
             "isTrending": true
         },
@@ -68,7 +68,7 @@
             "courseTitle": "Online Marketing",
             "description": "",
             "courseDepartment": "MARKETING",
-            "imageSrc": "../../assets/images/online-marketing.jpeg",
+            "imageSrc": "./assets/images/online-marketing.jpeg",
             "progressWidth": "0%",
             "isTrending": true
         },
@@ -77,7 +77,7 @@
             "courseTitle": "Web Application Development",
             "description": "",
             "courseDepartment": "IT",
-            "imageSrc": "../../assets/images/web-development.jpeg",
+            "imageSrc": "./assets/images/web-development.jpeg",
             "progressWidth": "0%",
             "isTrending": true
         },
@@ -86,7 +86,7 @@
             "courseTitle": "Cyber Security",
             "description": "",
             "courseDepartment": "IT",
-            "imageSrc": "../../assets/images/cyber-security.jpeg",
+            "imageSrc": "./assets/images/cyber-security.jpeg",
             "progressWidth": "0%",
             "isTrending": true
         },
@@ -95,7 +95,7 @@
             "courseTitle": "Building E-Commerce Site",
             "description": "",
             "courseDepartment": "IT",
-            "imageSrc": "../../assets/images/building-e-commerce-site.jpeg",
+            "imageSrc": "./assets/images/building-e-commerce-site.jpeg",
             "progressWidth": "0%",
             "isTrending": true
         }
