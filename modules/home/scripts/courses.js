@@ -6,7 +6,7 @@ $(document).ready(function() {
             $('header').removeClass('solid');
         }
       });
-    $.getJSON('../home/JSONData/course-list.json', function(data) {
+    $.getJSON('../../assets/data/course-list.json', function(data) {
     coursesList = data.coursesList;
     createCoursesList(coursesList);
     CreateDropDownList(coursesList);

@@ -8,7 +8,7 @@ $(document).ready(function() {
             $('header').removeClass('solid');
         }
       });
-    $.getJSON('./modules/home/JSONData/course-list.json', function(data) {
+    $.getJSON('./assets/data/course-list.json', function(data) {
     coursesList = data.coursesList;
     getFilteredListElements(coursesList);
     createCoursesList(coursesList);
@@ -133,5 +133,5 @@ function generateCommentsOnLoad(comments){
 }
 
 function OnclickViewAllCourses() {
-    window.location.href = "courses.html";
+    window.location.href = "./modules/home/courses.html";
 }
