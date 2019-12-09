@@ -43,7 +43,7 @@ function createDocumentElement(element){
 //creates course card 
 function createCourseCard(courseCardDiv,element){
     let imageSource = createDocumentElement('img');
-        imageSource.src = element.imageSrc.toString().slice(1);
+        imageSource.src = '../..' + element.imageSrc.toString().slice(1);
         imageSource.alt = element.courseTitle;
         imageSource.className = "course-card-img";
 
