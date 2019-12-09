@@ -84,12 +84,13 @@ main{
   text-align: left;
   
 }
-
+ 
 #dataFetched h2{
   padding:0px;
   margin-block-start: 0.3em;
   margin-block-end: 0.3em;
   display: table-cell;
+  padding-left: 20px;
 }
 #d1,#d2,#d3{
   display: table-cell;

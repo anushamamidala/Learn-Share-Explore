@@ -22,7 +22,6 @@ header {
   display: flex;
   align-items: center;
   padding-bottom: 10px;
-  border-bottom: black solid 2px;
   width: 80%;
   z-index: 9999;
 }
