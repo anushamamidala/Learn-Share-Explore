@@ -14,7 +14,7 @@ $(document).ready(function() {
     createCoursesList(coursesList);
 });
 
-$.getJSON('./modules/home/JSONData/comments.json', function(data){
+$.getJSON('./assets/data/comments.json', function(data){
     generateCommentsOnLoad(data.comments)
 });
 });
