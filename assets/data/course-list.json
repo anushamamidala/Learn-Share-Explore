@@ -5,7 +5,7 @@
             "courseTitle": "Software Development",
             "description": "Specializations and courses in software development address the process of creating Software using specific Methodologies.",
             "courseDepartment": "IT",
-            "imageSrc": "../../assets/images/software-development.jpeg",
+            "imageSrc": "../assets/images/software-development.jpeg",
             "progressWidth": "35%",
             "isTrending": false
         },
@@ -14,7 +14,7 @@
             "courseTitle": "Photography",
             "description": "This course let students operate a camera to take photographs and produce prints. a. Students develop essential skills in camera use with a focus on basic composition, set-up and an examination of exposure. Students operate a camera to capture images and produce final display proofs.",
             "courseDepartment": "ART",
-            "imageSrc": "../../assets/images/photography.jpeg",
+            "imageSrc": "../assets/images/photography.jpeg",
             "progressWidth": "65%",
             "isTrending": false
         },
