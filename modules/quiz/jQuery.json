@@ -4,7 +4,7 @@
         "Question":"Question 1 of 10",
         "Q":"Which of the following is correct?",
         "Options":["jQuery is a JavaScript library","jQuery is a JSON library","",""],
-        "Answer":1
+        "Answer":0
     },
     {
         "id": "2",

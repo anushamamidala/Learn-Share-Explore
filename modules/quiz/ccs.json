@@ -1,0 +1,73 @@
+{"teammembers":[
+    {
+        "id": "1",
+        "Question":"Question 1 of 10",
+        "Q":"What does CSS stand for?",
+        "Options":["Cascading Style Sheets","Computer Style Sheets","Creative Style Sheets",""],
+        "Answer":0
+    },
+    {
+        "id": "2",
+        "Question":"Question 2 of 10",
+        "Q":"What is the correct HTML for referring to an external style sheet?",
+        "Options":[" &lt; stylesheet &gt; mystyle.css &lt;/stylesheet &gt;","&lt; style src='mystyle.css'&gt;","&lt; link rel='stylesheet' type='text/css' href='mystyle.css' &gt;",""],
+        "Answer":2
+    },
+    {
+        "id": "3",
+        "Question":"Question 3 of 10",
+        "Q":"Where in an HTML document is the correct place to refer to an external style sheet?",
+        "Options":["In the &lt; head &gt; section","At the end of the document","In the &lt; body &gt; section",""],
+        "Answer":0
+    },
+    {
+        "id": "4",
+        "Question":"Question 4 of 10",
+        "Q":"Which HTML tag is used to define an internal style sheet?",
+        "Options":["&lt;script &gt; ","&lt; style &gt;","&lt; css &gt;",""],
+        "Answer":1
+    },
+    {
+        "id": "5",
+        "Question":"Question 5 of 10",
+        "Q":"Which HTML attribute is used to define inline styles?",
+        "Options":["style","font","class","src"],
+        "Answer":0
+    },
+    {
+        "id": "6",
+        "Question":"Question 6 of 10",
+        "Q":"Which is the correct CSS syntax?",
+        "Options":["body{ color:black;}","{body:color=black;}","{body;color:black;}","body:color=black"],
+        "Answer":0
+    },
+    {
+        "id": "7",
+        "Question":"Question 7 of 10",
+        "Q":"Which property is used to change the background color?",
+        "Options":["color","background-color","bgcolor",""],
+        "Answer":1
+    },
+    {
+        "id": "8",
+        "Question":"Question 8 of 10",
+        "Q":"Which CSS property is used to change the text color of an element?",
+        "Options":["color","text-color","fgcolor",""],
+        "Answer":1
+    },
+    {
+        "id": "9",
+        "Question":"Question 9 of 10",
+        "Q":"Which CSS property controls the text size?",
+        "Options":["text-size","text-style","font-style","font-size"],
+        "Answer":3
+    },
+    {
+        "id": "10",
+        "Question":"Question 10 of 10",
+        "Q":"How do you make each word in a text start with a capital letter?",
+        "Options":["text-transform:capitalize","You can't do that with css","transform:capitalize",""],
+        "Answer":0
+    }
+
+]}

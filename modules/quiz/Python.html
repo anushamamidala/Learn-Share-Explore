@@ -1,204 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Learn Code Share </title>
-        <meta charset="utf-8">
-        <meta name="description" content="LearnCodeShare" />
-        <meta name="keywords" content="HTML, tag, style," />
-        <link rel="shortcut icon" type="image/png" href="./assets/logo.png" />
-        <link href="styles/main.css" rel="stylesheet">
-        <link href="styles/stylesres.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    </head>
-    <body>
-        
-            <header>
 
-                    <img src="./assets/log.png" height="240px" width="130px">
-            
-                    <ul>
-            
-                        <li><a href="" class="active">HOME</a></li>
-            
-                        <li><a href="">COURSES</a></li>
-            
-                        <li><a href="index.html">TAKE A QUIZ</a></li>
+<head>
+    <title> Learn Code Share </title>
+    <meta charset="utf-8">
+    <meta name="description" content="LearnCodeShare" />
+    <meta name="keywords" content="HTML, tag, style," />
+    <link rel="shortcut icon" type="image/png" href="./assets/logo.png" />
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/stylesres.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Python.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
 
-                        <li><a href="interaction.html">INTERACTION</a></li>
-            
-                        <li><a href="">ABOUT</a></li>
-            
-                        <li><a href="faq.html">FAQ</a></li>
+<body>
 
-                        <li><a href="blog.html">BLOG</a></li>
-            
-                        <li><a href="">PROFILE</a></li>
-            
-                    </ul>
-            
-                </header>
-                <br/> <br/> <br/> <br/>
-            <section class="wrapper2">
-            <div class="main1">
-                <h2>Python</h2>
-                <div class="start">
-                <p class="qNo">Question 1 of 10</p>
-                <p class="question">What is a correct syntax to output "Hello World" in Python?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq1" id="pyth-q1-opt1"> <label for="pyth-q1-opt1"> echo "Hello World"</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq1" id="pyth-q1-opt2"> <label for="pyth-q1-opt2">echo ("Hello World");</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq1" id="pyth-q1-opt3"> <label for="pyth-q1-opt3">p ("Hello World")</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq1" id="pyth-q1-opt4"> <label for="pyth-q1-opt4">print ("Hello World")</label></div></li>
-                </ul>
+    <header>
+
+        <img src="./assets/log.png" height="240px" width="130px">
+
+        <ul>
+
+            <li><a href="../../index.html" class="active">HOME</a></li>
+
+            <li><a href="./modules/home/courses.html">COURSES</a></li>
+
+            <li><a href="./modules/login/courseoverview.html">COURSES OVERVIEW</a></li>
+
+            <li><a href="index.html">TAKE A QUIZ</a></li>
+
+            <li><a href="interaction.html">INTERACTION</a></li>
+
+            <li><a href="./modules/profile/aboutUs.html">ABOUT</a></li>
+
+            <li><a href="faq.html">FAQ</a></li>
+
+            <li><a href="./modules/login/Blog.html">BLOG</a></li>
+
+            <li><a href="./modules/profile/profileStu.html">PROFILE</a></li>
+
+        </ul>
+
+    </header>
+    <br /> <br /> <br /> <br />
+    <section class="wrapper2">
+        <div class="main1">
+            <h2>Python</h2>
+            <div class="start" id="start">
+                <form id='form'>
+                    <div id="sub">
+                        <input type="button" class="submit_btn" value="SUBMIT" onclick="check()" />
+                    </div>
+                    <div id="marks"></div>
+                </form>
             </div>
-                <p class="qNo">Question 2 of 10</p>
-                <p class="question">Which one is NOT a legal variable name?</p>
-                <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq2" id="pyth-q2-opt1"> <label for="pyth-q2-opt1">my_var</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq2" id="pyth-q2-opt2"> <label for="pyth-q2-opt2">Myvar </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq2" id="pyth-q2-opt3"> <label for="pyth-q2-opt3">_myvar</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq2" id="pyth-q2-opt4"> <label for="pyth-q2-opt4">my-var </label></div></li>
-                </ul>
-            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-website-description">
 
-                <p class="qNo">Question 3 of 10</p>
-                <p class="question">How do you create a variable with the numeric value 5?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq3" id="pyth-q3-opt1"> <label for="pyth-q3-opt1">x=5 </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq3" id="pyth-q3-opt2"> <label for="pyth-q3-opt2">x=int(5) </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq3" id="pyth-q3-opt3"> <label for="pyth-q3-opt3">Both the answers are correct </label></div></li>
-                </ul>
-            </div>
+            <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best
 
-                <p class="qNo">Question 4 of 10</p>
-                <p class="question">What is the correct file extension for Python files?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq4" id="pyth-q4-opt1"> <label for="pyth-q4-opt1">.pyt</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq4" id="pyth-q4-opt2"> <label for="pyth-q4-opt2">py </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq4" id="pyth-q4-opt3"> <label for="pyth-q4-opt3">.pt </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq4" id="pyth-q4-opt4"> <label for="pyth-q4-opt4">.pyth</label></div></li>
-                </ul>
-            </div>
+                education, partnering
 
-                <p class="qNo">Question 5 of 10</p>
-                <p class="question">How do you create a variable with the floating number 2.8?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq5" id="pyth-q5-opt1"> <label for="pyth-q5-opt1">x=float(2.8)</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq5" id="pyth-q5-opt2"> <label for="pyth-q5-opt2">Both the answers are correct</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq5" id="pyth-q5-opt3"> <label for="pyth-q5-opt3">x=2.8 </label></div></li>
-                </ul>
-            </div>
-
-                <p class="qNo">Question 6 of 10</p>
-                <p class="question">What is the correct syntax to output the type of a variable or object in Python?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq6" id="pyth-q6-opt1"> <label for="pyth-q6-opt1">print(typeOf(x))</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq6" id="pyth-q6-opt2"> <label for="pyth-q6-opt2">print(type(x)) </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq6" id="pyth-q6-opt3"> <label for="pyth-q6-opt3">print(typeof(x)) </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq6" id="pyth-q6-opt4"> <label for="pyth-q6-opt4">print(typeof x)</label></div></li>
-                </ul>
-            </div>
-
-                <p class="qNo">Question 7 of 10</p>
-                <p class="question">What is the correct way to create a function in Python?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq7" id="pyth-q7-opt1"> <label for="pyth-q7-opt1">def myFunction(): </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq7" id="pyth-q7-opt2"> <label for="pyth-q7-opt2">create myFunction():</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq7" id="pyth-q7-opt3"> <label for="pyth-q7-opt3">function myFunction(): </label></div></li>
-                </ul>
-            </div>
-
-                <p class="qNo">Question 8 of 10</p>
-                <p class="question">In Python, 'Hello', is the same as "Hello"</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq8" id="pyth-q8-opt1"> <label for="pyth-q8-opt1">FALSE</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq8" id="pyth-q8-opt2"> <label for="pyth-q8-opt2">TRUE </label></div></li>
-                </ul>
-            </div>
-
-                <p class="qNo">Question 9 of 10</p>
-                <p class="question">Which character is used to indicate an end tag?Which method can be used to remove any whitespace from both the beginning and the end of a string?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq9" id="pyth-q9-opt1"> <label for="pyth-q9-opt1">ptrim()</label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq9" id="pyth-q9-opt2"> <label for="pyth-q9-opt2">len() </label></div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq9" id="pyth-q9-opt3"> <label for="pyth-q9-opt3">trim()</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq9" id="pyth-q9-opt4"> <label for="pyth-q9-opt4">strip()</label> </div></li>
-                </ul>
-            </div>
-
-                <p class="qNo">Question 10 of 10</p>
-                <p class="question">Which method can be used to return a string in upper case letters?</p>
-            <div class="grid-container">
-                <ul class="answer">
-                    <li><div class="grid_item"><input type="radio" name="pyq10" id="pyth-q10-opt1"> <label for="pyth-q10-opt1">toUpperCase()</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq10" id="pyth-q10-opt2"> <label for="pyth-q10-opt2">uppercase()</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq10" id="pyth-q10-opt3"> <label for="pyth-q10-opt3">upperCase()</label> </div></li>
-                    <li><div class="grid_item"><input type="radio" name="pyq10" id="pyth-q10-opt4"> <label for="pyth-q10-opt4">upper()</label> </div></li>
-                </ul>
-            </div>
-
-            </div>
+                with top universities and organizations to offer courses online.</p>
 
         </div>
 
-    </section>
-    <footer>
+        <div class="footer-website-description-courses">
 
-            <div class="footer-website-description">
-    
-                <p class="footer-title-underline">Learn, Share & Explore provides universal access to the world’s best
-    
-                    education, partnering
-    
-                    with top universities and organizations to offer courses online.</p>
-    
-            </div>
-    
-            <div class="footer-website-description-courses">
-    
-                <p id="footer-courses">Courses</p>
-    
-                <p>Software Development</p>
-    
-                <p>Banking and Finance</p>
-    
-                <p>Visual Arts</p>
-    
-                <p>Busness Managment</p>
-    
-                <p>Software Engineering Technician</p>
-    
-                <p>Photography</p>
-    
-                <p>Social Media and Marketing</p>
-    
-            </div>
-    
-            <div class="footer-website-description-about">
-    
-                <p id="footer-courses-about">About</p>
-    
-                <p>Courses</p>
-    
-                <p>Take a Quiz</p>
-    
-                <p>Blog</p>
-    
-                <p>Profile</p>
-    
-            </div>
-    
-        </footer>
-        
+            <p id="footer-courses">Courses</p>
 
-    </body>
+            <p>Software Development</p>
+
+            <p>Banking and Finance</p>
+
+            <p>Visual Arts</p>
+
+            <p>Busness Managment</p>
+
+            <p>Software Engineering Technician</p>
+
+            <p>Photography</p>
+
+            <p>Social Media and Marketing</p>
+
+        </div>
+
+        <div class="footer-website-description-about">
+ <p id="footer-courses-about"><a class="afoot" href="./modules/profile/aboutUs.html">About</a></p>
+    
+                <p><a class="afoot" href="./modules/home/courses.html">Courses</a></p>
+    
+                <p><a class="afoot" href="index.html">Take a Quiz</a></p>
+    
+                <p><a class="afoot" href="./modules/login/Blog.html">Blog</a></p>
+    
+                <p><a class="afoot" href="./modules/profile/profileStu.html">Profile</a></p>
+    
+        </div>
+    </footer>
+</body>
+
 </html>

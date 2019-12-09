@@ -1,0 +1,73 @@
+{"teammembers":[
+	    {
+            "id": "1",
+		    "Question":"Question 1 of 10",
+		    "Q":"What does HTML stand for?",
+            "Options":["Hyperlinks and Text Markup Language","Hyper Text Markup Language","Home Tool Markup Language",""],
+            "Answer":0
+        },
+        {
+            "id": "2",
+            "Question":"Question 2 of 10",
+            "Q":"Who is making the Web standards?",
+            "Options":["Microsoft","Mozilla","The World Wide Web Consortium","Google"],
+            "Answer":0
+        },
+        {
+            "id": "3",
+            "Question":"Question 3 of 10",
+            "Q":"Choose the correct HTML element for the largest heading:",
+            "Options":["&lt;h1 &gt;","&lt;h6 &gt;","&lt;heading &gt;","&lt;head &gt;"],
+            "Answer":0
+        },
+        {
+            "id": "4",
+            "Question":"Question 4 of 10",
+            "Q":"What is the correct HTML element for inserting a line break?",
+            "Options":["&lt;break &gt;","&lt;br &gt;","&lt;lb &gt;",""],
+            "Answer":1
+        },
+        {
+            "id": "5",
+            "Question":"Question 5 of 10",
+            "Q":"What is the correct HTML for adding a background color?",
+            "Options":["&lt;body style=”background-color:yellow;” &gt;","&lt;body bg='yellow' &gt;","&lt;background &gt;yellow&lt;background &gt;",""],
+            "Answer":0
+        },
+        {
+            "id": "6",
+            "Question":"Question 6 of 10",
+            "Q":"Choose the correct HTML element to define important text",
+            "Options":["&lt;strong &gt;","&lt;b &gt;","&lt;important &gt;","&lt;i &gt;"],
+            "Answer":0
+        },
+        {
+            "id": "7",
+            "Question":"Question 7 of 10",
+            "Q":"Choose the correct HTML element to define emphasized text:",
+            "Options":["&lt;italic &gt;","&lt;em &gt;","&lt;i &gt;",""],
+            "Answer":1
+        },
+        {
+            "id": "8",
+            "Question":"Question 8 of 10",
+            "Q":"What is the correct HTML for creating a hyperlink?",
+            "Options":["&lt;a href=”http://www.w3schools.com” &gt;W3Schools &lt;/a &gt;","&lt;a name=”http://www.w3schools.com”>&gt;W3Schools.com &lt;/a &gt;","&lt;a url=http://www.w3schools.com>&gt;W3Schools.com &lt;/a &gt;","&lt;a &gt;”http://www.w3schools.com”> &lt;/a &gt; "],
+            "Answer":0
+        },
+        {
+            "id": "9",
+            "Question":"Question 9 of 10",
+            "Q":"Which character is used to indicate an end tag?",
+            "Options":["&lt;","/","^","*"],
+            "Answer":1
+        },
+        {
+            "id": "10",
+            "Question":"Question 10 of 10",
+            "Q":"How can you open a link in a new tab/browser window?",
+            "Options":["&lt;a href=”url” new&gt;","&lt;href=”url” target=”_blank” &gt;","&lt;a href=”url” target=”new” &gt;",""],
+            "Answer":1
+        }
+	
+]}

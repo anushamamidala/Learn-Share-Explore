@@ -1,0 +1,73 @@
+{"teammembers":[
+    {
+        "id": "1",
+        "Question":"Question 1 of 10",
+        "Q":"The external JavaScript file must contain the &lt; script &gt; tag.",
+        "Options":["TRUE","FALSE","",""],
+        "Answer":1
+    },
+    {
+        "id": "2",
+        "Question":"Question 2 of 10",
+        "Q":"How do you create a function in JavaScript?",
+        "Options":[" function=myFunction()","function:myFunction()","function myFunction()",""],
+        "Answer":0
+    },
+    {
+        "id": "3",
+        "Question":"Question 3 of 10",
+        "Q":"How do you call a function named 'myFunction'?",
+        "Options":["call myFunction()","call function myFunction()","myFunction()",""],
+        "Answer":3
+    },
+    {
+        "id": "4",
+        "Question":"Question 4 of 10",
+        "Q":"How to write an IF statement in JavaScript?",
+        "Options":["if(i==5) ","if i=5 then","if i==5 then",""],
+        "Answer":0
+    },
+    {
+        "id": "5",
+        "Question":"Question 5 of 10",
+        "Q":"How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+        "Options":["if(i &lt; &gt; 5) ","if i &lt; &gt; 5","if( i!=5)",""],
+        "Answer":3
+    },
+    {
+        "id": "6",
+        "Question":"Question 6 of 10",
+        "Q":"How does a WHILE loop start?",
+        "Options":["while(i &lt;=10; i++)","while(i &lt;=10) ","while i= 1 to 10",""],
+        "Answer":1 
+    },
+    {
+        "id": "7",
+        "Question":"Question 7 of 10",
+        "Q":"How does a FOR loop start? ",
+        "Options":["for (i &lt;=5; i++)","for (i=0; i &lt;=5)","for (i=1 to 5)",""],
+        "Answer":3
+    },
+    {
+        "id": "8",
+        "Question":"Question 8 of 10",
+        "Q":"How do you round the number 7.25, to the nearest integer?",
+        "Options":["round(7.25)","Math.round(7.25)","Math.rnd(7.25)","rnd(7.25)"],
+        "Answer":2
+    },
+    {
+        "id": "9",
+        "Question":"Question 9 of 10",
+        "Q":"How do you find the number with the highest value of x and y?",
+        "Options":["top(x,y)","ceil(x,y)","Math.ceil(x,y)","Math.max(x,y)"],
+        "Answer":3
+    },
+    {
+        "id": "10",
+        "Question":"Question 10 of 10",
+        "Q":"JavaScript is the same as Java.",
+        "Options":["TRUE","FALSE","",""],
+        "Answer":1
+    }
+
+]}

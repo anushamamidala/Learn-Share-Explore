@@ -1,10 +1,7 @@
-let val;
-
-// retrieving data from json
-$(document).ready(function () {
-  $.getJSON('jQuery.json', function (data) {
-    $.each(data.teammembers, function (key, value) {
-      val = data;
+$(document).ready(function() {
+    $.getJSON('sql.json', function(data) {
+      $.each(data.teammembers, function(key, value) {
+        val = data;
       $('#form').append(
         '<div class="grid-container">' +
         '<p class="qNo">' + value.Question + '</p>' +
@@ -41,7 +38,7 @@ function check() {
 
   $('form').serializeArray().map((ob) => {
 
-    $.getJSON('jQuery.json', function (data) {
+    $.getJSON('sql.json', function (data) {
       $.each(data.teammembers, function (key, value) {
         if (value["id"] == ob["name"]) {
           console.log(value);

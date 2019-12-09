@@ -63,7 +63,7 @@ function createCoursesList(coursesList) {
     courseCardsDiv[0].innerHTML = '';
     coursesList.forEach(element => {
         let aHrefTag = document.createElement('a');
-        aHrefTag.href = 'course-videos.htmL';
+        aHrefTag.href = './modules/home/course-videos.htmL';
 
         let polaroidDiv = document.createElement('div');
         polaroidDiv.className = 'polaroid';

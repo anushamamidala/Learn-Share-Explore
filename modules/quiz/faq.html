@@ -8,30 +8,36 @@
         <link rel="shortcut icon" type="image/png" href="./assets/logo.png" />
         <link href="styles/main.css" rel="stylesheet">
         <link href="styles/stylesres.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    	<script src="faq.js"></script> 
+        <!--<link href="faq.css" rel="stylesheet"> -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     </head>
     <body>
 
             <header>
-                    <img src="./assets/log.png" height="240px" width="130px">
+
+                    <img src="./assets/log.png" height="240" width="130" alt="logo image">
             
                     <ul>
             
-                        <li><a href="" class="active">HOME</a></li>
+                        <li><a href="../../index.html" class="active">HOME</a></li>
             
-                        <li><a href="">COURSES</a></li>
+                        <li><a href="./modules/home/courses.html">COURSES</a></li>
+
+                        <li><a href="./modules/login/courseoverview.html">COURSES OVERVIEW</a></li>
             
                         <li><a href="index.html">TAKE A QUIZ</a></li>
 
                         <li><a href="interaction.html">INTERACTION</a></li>
             
-                        <li><a href="">ABOUT</a></li>
+                        <li><a href="./modules/profile/aboutUs.html">ABOUT</a></li>
             
                         <li><a href="faq.html">FAQ</a></li>
 
-                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="./modules/login/Blog.html">BLOG</a></li>
             
-                        <li><a href="">PROFILE</a></li>
+                        <li><a href="./modules/profile/profileStu.html">PROFILE</a></li>
             
                     </ul>
             
@@ -42,55 +48,97 @@
 
 
             <div class="wrapper">
-                   
-                    
-                    <main>
-
-                        <div class="main_box_head">
+                    <main id="faq">
                         <h2><u>FREQUENTLY ASKED QUESTIONS</u></h2>
-                        </div>
-
                         <div class="main_box">
-                        <dl id="faq">
-                            <dt class="faq-dt">1. Is there a time limit to complete the courses?</dt>
-                            <dd class="faq-dd"> No, you can complete the courses according to your convenience.</dd>
 
-                            <dt class="faq-dt">2. Is there any certification issued upon successful completion of courses?</dt>
-                            <dd class="faq-dd">Yes, but for that student need to register for tests and score atleast 75 percent in both theory and practicle. </dd>
+                            <h4><a href="#" class="faq-a"> 1. Is there a time limit to complete the courses?</a></h4>
 
-                            <dt class="faq-dt">3. Do I need to pay for courses?</dt>
-                            <dd class="faq-dd">No, but you need to register your account in order to avail full courses.</dd>
+                            <div class="faq-div">
+                                <p class="faq-p">No, you can complete the courses according to your convenience.
+                                </p>
+                            </div>
 
-                            <dt class="faq-dt">4. Do I need to pay for certification tests?</dt>
-                            <dd class="faq-dd">Yes, you would have to pay for certification tests.</dd>
+                            <h4><a href="#" class="faq-a">2. Is there any certification issued upon successful completion of courses?</a></h4>
 
-                            <dt class="faq-dt">5. Can I get extented help on unclear topics? If yes, how?</dt>
-                            <dd class="faq-dd">There is a student-tutor interaction section where tutors would help students to clear all of their doubts. You would need to ask questions about a subject and your questions would be answered by respective teachers.</dd>
+                            <div  class="faq-div">
+                                <p class="faq-p">Yes, but for that student need to register for tests and score atleast 75 percent in both theory and practicle.
+                                </p>
+                            </div>
 
-                            <dt class="faq-dt">6. Are these courses helpful?</dt>
-                            <dd class="faq-dd">Yes, these courses will help you improve and stand in a more strong position in your feild.</dd>
+                            <h4><a href="#" class="faq-a">3. Do I need to pay for courses?</a></h4>
 
-                            <dt class="faq-dt">7. What, if I don't clear my tests?</dt>
-                            <dd class="faq-dd">YOu can retake the courses online as these do not have physical time limits to be completed and carry on with your own convenience.</dd>
+                            <div  class="faq-div">
+                                <p class="faq-p">No, but you need to register your account in order to avail full courses.
+                                </p>
+                            </div>
 
-                            <dt class="faq-dt">8. Can I be tutor and student at the same time?</dt>
-                            <dd class="faq-dd">Yes, ofcourse. But you can't be a tutor and a student for the same course at a particular time since you yourself are taking classes on the same subject. </dd>
+                            <h4><a href="#" class="faq-a">4. Do I need to pay for certification tests?</a></h4>
 
-                            <dt class="faq-dt">9. Do I need to make different profiles if I am a student as well a tutor on this platform?</dt>
-                            <dd class="faq-dd">Yes, you would have to make two different profiles because there would be a lot of diffrent content which you don't want to get confused of. </dd>
+                            <div  class="faq-div">
+                                <p class="faq-p">Yes, you would have to pay for certification tests.
+                                </p>
+                            </div>
 
-                            <dt class="faq-dt">10. Will our experience as teachers count in outer world?</dt>
-                            <dd class="faq-dd">If students give positive feedback and strongly refer you to other students thereby making your students list longer making you popular , you can definitely use this experience in physical world as this is a recognised  platform affiliated to International Education Standard. </dd>
+                            <h4><a href="#" class="faq-a">5. Can I get extented help on unclear topics? If yes, how?</a></h4>
 
-                        </dl>
-                        </div>
+                            <div  class="faq-div">
+                                <p class="faq-p">There is a student-tutor interaction section where tutors would help students to clear all of their doubts. You would need to ask questions about a subject and your questions would be answered by respective teachers.
+                                </p>
+                            </div>
+
+                            <h4><a href="#" class="faq-a">6. Are the classes here collaborate with the courses we have at our institutes?</a></h4>
+
+                            <div  class="faq-div">
+                                <p class="faq-p">Topics remain same no matter where the course is taught. You can no doubt continue classes at both ends without much confusion.
+                                </p>
+                            </div>
+
+                            <h4><a href="#" class="faq-a">7. Where are the certifications valid?
+                            </a></h4>
+
+                            <div  class="faq-div">
+                                <p class="faq-p">Certificaions are valid everywhere,i.e., you can put the certifications earned here on your resume or CV.
+                                </p>
+                            </div>
+
+                            <h4><a href="#" class="faq-a">8. How do the tutors earn since all the courses are free of cost?</a></h4>
+
+                            <div  class="faq-div">
+                                <p class="faq-p">Tutors here teach out of their interest, practically they don't earn money through teaching on this platform but yes, they do gain important experience which they can use for future references. 
+                                </p>
+                            </div>
+
+                            <h4><a href="#" class="faq-a">9. Can an individual be the student and tutor at the same time?
+                            </a></h4>
+
+                            <div  class="faq-div">
+                                <p class="faq-p">Yes, definitely. An individual can be a student of a subject but can teach the subjects they expertise in (other than the one they are currently learning). 
+                                </p>
+                            </div>
+
+                            <h4><a href="#" class="faq-a">10. Do tutors help and/or give projects for on-hand experience upon the completion of the course. </a></h4>
+
+                            <div  class="faq-div">
+                                <p class="faq-p">Yes, students are given projects to implement their skills. Tutors freehandedly, help students to complete their projects in such a way so that students can showcase them as a bonus point in their future.
+                                </p>
+                            </div>
 
 
-                        <div class="image">
-                            <img src="./assets/faq2.jpg" alt="FAQ_IMAGE" class="image1">
+                        <!--<dl id="faq">
+                            <dt>1. Is there a time limit to complete the courses?</dt>
+                            <dd>No, you can complete the courses according to your convenience.</dd>
+                            <dt>2. Is there any certification issued upon successful completion of courses?</dt>
+                            <dd>Yes, but for that student need to register for tests and score atleast 75 percent in both theory and practicle. </dd>
+                            <dt>3. Do I need to pay for courses?</dt>
+                            <dd>No, but you need to register your account in order to avail full courses.</dd>
+                            <dt>4. Do I need to pay for certification tests?</dt>
+                            <dd>Yes, you would have to pay for certification tests.</dd>
+                            <dt>5. Can I get extented help on unclear topics? If yes, how?</dt>
+                            <dd>There is a student-tutor interaction section where tutors would help students to clear all of their doubts. You would need to ask questions about a subject and your questions would be answered by respective teachers.</dd>
+                        </dl>-->
                         </div>
                      </main>
-                     
                     
                     </div>
 
@@ -132,15 +180,16 @@
     
             <div class="footer-website-description-about">
     
-                <p id="footer-courses-about">About</p>
+                    <p id="footer-courses-about"><a class="afoot" href="./modules/profile/aboutUs.html">About</a></p>
     
-                <p>Courses</p>
-    
-                <p>Take a Quiz</p>
-    
-                <p>Blog</p>
-    
-                <p>Profile</p>
+                    <p><a class="afoot" href="./modules/home/courses.html">Courses</a></p>
+        
+                    <p><a class="afoot" href="index.html">Take a Quiz</a></p>
+        
+                    <p><a class="afoot" href="./modules/login/Blog.html">Blog</a></p>
+        
+                    <p><a class="afoot" href="./modules/profile/profileStu.html">Profile</a></p>
+        
     
             </div>
     

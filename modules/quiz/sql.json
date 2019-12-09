@@ -1,0 +1,73 @@
+{"teammembers":[
+    {
+        "id": "1",
+        "Question":"Question 1 of 10",
+        "Q":"What does SQL stand for?",
+        "Options":["Structured Query Language"," Strong Question Language"," Structured Question Language",""],
+        "Answer":0
+    },
+    {
+        "id": "2",
+        "Question":"Question 2 of 10",
+        "Q":"Which SQL statement is used to extract data from a database?",
+        "Options":[" OPEN","GET","SELECT","EXTRACT"],
+        "Answer":2
+    },
+    {
+        "id": "3",
+        "Question":"Question 3 of 10",
+        "Q":"Which SQL statement is used to update data in a database?",
+        "Options":["UPDATE","MODIFY","SAVE","SAVE AS"],
+        "Answer":0
+    },
+    {
+        "id": "4",
+        "Question":"Question 4 of 10",
+        "Q":"Which SQL statement is used to delete data from a database?",
+        "Options":["REMOVE ","DELETE","COLLAPSE",""],
+        "Answer":1
+    },
+    {
+        "id": "5",
+        "Question":"Question 5 of 10",
+        "Q":"Which SQL statement is used to insert new data in a database?",
+        "Options":["ADD NEW ","INSERT INTO","INSERT NEW",""],
+        "Answer":1
+    },
+    {
+        "id": "6",
+        "Question":"Question 6 of 10",
+        "Q":"With SQL, how do you select a column named 'FirstName' from a table named 'Persons'?",
+        "Options":["SELECT FirstName FROM Persons","SELECT Persons.FirstName","EXTRACT FirstName FROM Persons",""],
+        "Answer":0
+    },
+    {
+        "id": "7",
+        "Question":"Question 7 of 10",
+        "Q":"The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true ",
+        "Options":["TRUE","FALSE","",""],
+        "Answer":0
+    },
+    {
+        "id": "8",
+        "Question":"Question 8 of 10",
+        "Q":"Which SQL statement is used to return only different values?",
+        "Options":["SELECT DIFFERENT","SELECT DISTINCT","SELECT UNIQUE ",""],
+        "Answer":1
+    },
+    {
+        "id": "9",
+        "Question":"Question 9 of 10",
+        "Q":"Which SQL keyword is used to sort the result-set?",
+        "Options":["ORDER BY","ORDER ","SORT","SORT BY"],
+        "Answer":3
+    },
+    {
+        "id": "10",
+        "Question":"Question 10 of 10",
+        "Q":"What is the most common type of join?",
+        "Options":["JOINED TABLE","JOIN","INNER JOIN",""],
+        "Answer":2
+    }
+
+]}

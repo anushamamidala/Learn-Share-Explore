@@ -8,6 +8,8 @@
         <link rel="shortcut icon" type="image/png" href="./assets/logo.png" />
         <link href="styles/main.css" rel="stylesheet">
         <link href="styles/stylesres.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="javascript.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     </head>
     <body>
@@ -18,21 +20,23 @@
             
                     <ul>
             
-                        <li><a href="" class="active">HOME</a></li>
+                        <li><a href="../../index.html" class="active">HOME</a></li>
             
-                        <li><a href="">COURSES</a></li>
+                        <li><a href="./modules/home/courses.html">COURSES</a></li>
+
+                        <li><a href="./modules/login/courseoverview.html">COURSES OVERVIEW</a></li>
             
                         <li><a href="index.html">TAKE A QUIZ</a></li>
 
                         <li><a href="interaction.html">INTERACTION</a></li>
             
-                        <li><a href="">ABOUT</a></li>
+                        <li><a href="./modules/profile/aboutUs.html">ABOUT</a></li>
             
                         <li><a href="faq.html">FAQ</a></li>
 
-                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="./modules/login/Blog.html">BLOG</a></li>
             
-                        <li><a href="">PROFILE</a></li>
+                        <li><a href="./modules/profile/profileStu.html">PROFILE</a></li>
             
                     </ul>
             
@@ -41,7 +45,9 @@
             <section class="wrapper2">
             <div class="main1">
                 <h2>JAVASCRIPT</h2>
-                <div class="start">
+                <div class="start" id="start">
+                        <form id='form'>
+                <!--
                 <p class="qNo">Question 1 of 10</p>
                 <p class="question">The external JavaScript file must contain the &lt; script &gt; tag.</p>
             <div class="grid-container">
@@ -140,6 +146,12 @@
                     <li><div class="grid_item"><input type="radio" name="jS1" id="jS-q10-opt2"> <label for="jS-q10-opt2">FALSE </label></div></li>
                 </ul>
             </div>
+            -->
+            <div id="sub">
+                    <input type="button" class="submit_btn" value="SUBMIT" onclick="check()" />
+                </div>
+                <div id="marks"></div>
+            </form>
 
             </div>
 
@@ -180,15 +192,16 @@
     
             <div class="footer-website-description-about">
     
-                <p id="footer-courses-about">About</p>
+                    <p id="footer-courses-about"><a class="afoot" href="./modules/profile/aboutUs.html">About</a></p>
     
-                <p>Courses</p>
-    
-                <p>Take a Quiz</p>
-    
-                <p>Blog</p>
-    
-                <p>Profile</p>
+                    <p><a class="afoot" href="./modules/home/courses.html">Courses</a></p>
+        
+                    <p><a class="afoot" href="index.html">Take a Quiz</a></p>
+        
+                    <p><a class="afoot" href="./modules/login/Blog.html">Blog</a></p>
+        
+                    <p><a class="afoot" href="./modules/profile/profileStu.html">Profile</a></p>
+        
     
             </div>
     
