@@ -157,3 +157,18 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+/* more information json data*/
+$(document).ready(function() {
+    $.getJSON("moreInfo.json", function(data) {
+        var info = '';
+        $.each(data, function(key, value) {
+            info += '<tr>';
+            info += '<td>' + value.lang + '</td>';
+            info += '<td>' + value.cert + '</td>';
+            info += '<td>' + value.job + '</td>';
+            info += '</tr>';
+        });
+        $('#more-info-table').append(info);
+    });
+});

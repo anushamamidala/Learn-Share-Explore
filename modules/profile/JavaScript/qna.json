@@ -1,14 +1,34 @@
 {"questions":[
     {
+        "question":"2. How can an I ask questions here?",
+        "Answer":" The link on your profile page will lead you to either the answering page or the questions page based on whether you are an instructor or a student respectively."
+    },
+    {
+        "question":"3. When can someone ask or reply to questions here?",
+        "Answer":" As soon as we are taught how to do this in class using javaScript."
+    },
+    {
+        "question":"4. How do I submit a Question?",
+        "Answer":" Just type the question out in the space below."
+    },
+    {
         "question":"5. Can you add questions using JSON?",
-        "Answer":"Yes, this is the first Question i Have added from a JSON file"
+        "Answer":" Yes, this is the first Question i Have added from a JSON file"
     },
     {
-        "question":"6. Can you add more questions from JSON?",
-        "Answer":"Yes, we can add as many questions as we want, we just need to edit the Json file"
+        "question":"6. Can you add questions using JSON?",
+        "Answer":" Yes, this is the first Question i Have added from a JSON file"
     },
     {
-        "question":"7. Can we add questions here and then view them",
-        "Answer":"At the moment. no as that needs the use of Python"
+        "question":"7. Can you add questions using JSON?",
+        "Answer":" Yes, this is the first Question i Have added from a JSON file"
+    },
+    {
+        "question":"8. Can you add more questions from JSON?",
+        "Answer":" Yes, we can add as many questions as we want, we just need to edit the Json file"
+    },
+    {
+        "question":"9. Can we add questions here and then view them",
+        "Answer":" At the moment. no as that needs the use of Python"
     }
 ]}

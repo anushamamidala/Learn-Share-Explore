@@ -8,7 +8,7 @@ $(document).ready(function() {
             '</h2>' +
             '<p>ANS:' +
             value.Answer+
-            '</p><br>'
+            '</p>'
         );
       });
     });
@@ -39,12 +39,24 @@ $(document).ready(function() {
         if (name.length < 1) {
           $('#name').after('<span class="error">This field is required</span>');
         }
+        
         if (email.length < 1) {
           $('#email').after('<span class="error">This field is required</span>');
         } 
+        
         if (question.length<1){
             $('#question').after('<span class="error"><br/>This field is required</span>');
         }
-    });
+
+        
+      });
+      $('#btnsubmit').click(function(){
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var question = $('#question').val();
+        localStorage.setItem('QuestionBy', name),
+        localStorage.setItem('EmailTo', email),
+        localStorage.setItem('Question', question)
+        });
 
 });

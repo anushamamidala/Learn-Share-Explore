@@ -64,7 +64,7 @@ main p{
 .container{
   padding: 10px 50px 10px 30px;
   display: grid;
-  grid-template-columns: repeat(4 , 1fr);
+  grid-template-columns: 1fr 1.7fr 1fr 1.7fr;
   justify-content: stretch;
   gap: 20px 0px;
 }

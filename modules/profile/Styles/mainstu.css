@@ -73,11 +73,29 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
   color: darkblue;
+  
 }
 main{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times , Times New Roman, Serif;
-   }
+}
+
+#dataFetched{
+  text-align: left;
+  
+}
+
+#dataFetched h2{
+  padding:0px;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  display: table-cell;
+}
+#d1,#d2,#d3{
+  display: table-cell;
+  color: rgb(51, 147, 236);
+  font-size: medium;
+}
 
 .box{
   background-color: white;
@@ -87,7 +105,6 @@ main{
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-gap: 10px;
-  padding-top: 100px;
 }
 footer {
   display: flex;
@@ -149,9 +166,7 @@ footer {
         margin-right: 30px;
     }
     
-    main {
-        padding-top: 60px;
-    }
+    
     footer {
         flex-direction: row;
         height: 300px;

@@ -1,0 +1,31 @@
+[{
+        "id": "1",
+        "lang": "HTML",
+        "cert": "Html certificate",
+        "job": "web designer"
+    },
+    {
+        "id": "2",
+        "lang": "CSS",
+        "cert": "CSS certificate",
+        "job": "web designer"
+    },
+    {
+        "id": "3",
+        "lang": "Javascript",
+        "cert": "JS certificate",
+        "job": "web programmer"
+    },
+    {
+        "id": "4",
+        "lang": "Java",
+        "cert": "Java certificate",
+        "job": "web developer"
+    },
+    {
+        "id": "5",
+        "lang": "Android",
+        "cert": "Andoid certificate",
+        "job": "Mobile application developer"
+    }
+]

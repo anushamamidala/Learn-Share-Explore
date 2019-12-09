@@ -25,15 +25,23 @@
     </ul>
   </header>
   <div class="box">
+    <br><br>
     <h2>Welcome to Your profile page</h2>
     <div class="container">
       <!-- For the profile picture and name -->
       <aside id="wrapper">
-        <img src="./Images/img_avatar.png" alt="user image" height="300" width="200">
+        <span id="imgChan">
+        <img id="./Images/img_avatar2.png" src="./Images/img_avatar.png" alt="user image" height="300" width="200">
+        </span>
         <h3>Student name</h3>
       </aside>
        <!-- For the content related to the user -->
       <main>
+        <div id="dataFetched">
+        <h2>Name:&nbsp;</h2><span id="d1"></span></br>
+        <h2>Id:&nbsp;</h2><span id="d2"></span></br>
+        <h2>Email ID:&nbsp;</h2><span id="d3"></span></br>
+      </div>
         <p>Welcome to your profile page, the buttons that follow will help you follow the courses that you want to work
           on and as you are a student and may have doubts as you go along, you can also access our FAQs section to clear
           your doubts as you go along.</p>
@@ -90,6 +98,11 @@
       </a>
   </div>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="./JavaScript/stuProfile.js"></script>
 </body>
 
 </html>

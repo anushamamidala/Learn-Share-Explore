@@ -678,6 +678,27 @@
                   opacity: 1
               }
           }
+          
+          .table-info-store {
+              margin-top: 40px;
+          }
+          
+          #more-info-table {
+              border-collapse: collapse;
+              border: 1px solid black;
+          }
+          
+          tr:nth-child(even) {
+              background-color: white;
+          }
+          
+          tr:nth-child(odd) {
+              background-color: white;
+          }
+          
+          th {
+              color: red;
+          }
           /*course overview ends*/
           
           footer {
@@ -1161,6 +1182,9 @@
                   position: relative;
                   margin-top: 10px;
                   margin-left: 0px;
+              }
+              #more-info-table {
+                  display: none;
               }
               /*course overview ends*/
           }
