@@ -14,6 +14,7 @@ let uPattern = /(?=.*[a-zA-Z]).{6,}/;
 
 let passwords = JSON.parse(localStorage.getItem('password')) || [];
 let usernames = JSON.parse(localStorage.getItem('username')) || [];
+let names = JSON.parse(localStorage.getItem('password')) || [];
 /*validation function for registration form*/
 function validation() {
 
@@ -75,6 +76,8 @@ function validation() {
                                 /*local storage*/
                                 usernames.push($('username').value);
                                 passwords.push($('password1').value);
+                                names.push($('firstname').value)
+                                localStorage.setItem("name",JSON.stringify(names));
                                 localStorage.setItem("username", JSON.stringify(usernames));
                                 localStorage.setItem("password", JSON.stringify(passwords));
                                 //return true;

@@ -1,6 +1,7 @@
 let previousActiveCourse;
 let coursesList;
 $(document).ready(function() {
+    let userNameExists = setUserName();
     $(window).scroll(function() {
         if($(this).scrollTop() > 500) { 
             $('header').addClass('solid');
