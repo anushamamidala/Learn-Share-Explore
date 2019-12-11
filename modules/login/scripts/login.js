@@ -12,9 +12,9 @@ function getValues() {
         for (i = 0; i < checkuser.length; i++) {
             if (user == (JSON.parse(checkuser)[i])) {
                 for (j = 0; j < checkpass.length; j++)
-                    if (pass == (JSON.parse(checkpass)[j]))
+                    if (pass == (JSON.parse(checkpass)[j])){
                     localStorage.setItem("loggedInUser",JSON.parse(checkname)[i]);
-                    window.location.href = "../../index.html"
+                    window.location.href = "../../index.html"}
                     /*return true;*/
             }
         }

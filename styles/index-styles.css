@@ -314,6 +314,10 @@ footer {
     margin-left: 10%;
   }
 
+  nav{
+    width:calc(100% - 50px);
+  }
+
   .solid {
     background: white !important;
   }
