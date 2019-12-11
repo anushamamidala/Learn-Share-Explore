@@ -98,6 +98,13 @@ footer {
   font-size: 25px;
   padding-bottom: 10px;
 }
+.afoot{
+  color: white;
+  text-decoration: none;
+}
+.afoot:hover{
+  color: bisque;
+}
 
 
 @media screen and (min-width: 700px) {
